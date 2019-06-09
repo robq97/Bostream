@@ -13,6 +13,6 @@ namespace Bostream.Models
         public string Email { get; set; }
         public string Company { get; set; }
         public string Notes { get; set; }
-        public Tasks Tasks { get; set; }
+        public Task Task { get; set; }
     }
 }
