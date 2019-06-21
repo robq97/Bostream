@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Bostream
+namespace Bostream.Models
 {
     public class AdminUser
     {
