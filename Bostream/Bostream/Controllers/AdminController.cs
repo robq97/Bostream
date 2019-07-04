@@ -6,9 +6,9 @@ using System.Web.Mvc;
 
 namespace Bostream.Controllers
 {
-    public class ContactClientController : Controller
+    public class AdminController : Controller
     {
-        // GET: ContactClient
+        // GET: Admin
         public ActionResult Index()
         {
             return View();
