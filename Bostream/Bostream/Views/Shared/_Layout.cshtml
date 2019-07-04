@@ -10,17 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 <body>
-    <nav>
-        <div class="nav-wrapper orange darken-4">
-            <a> @Html.ActionLink("Bostream", "Index", "Home", new { area = "" }, new { @class = "brand-logo center" })</a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li>@Html.ActionLink("Visión", "Index", "Home")</li>
-                <li>@Html.ActionLink("Servicios", "About", "Home")</li>
-                <li>@Html.ActionLink("Trabajos", "", "Home")</li>
-                <li>@Html.ActionLink("Contactenos", "Contact", "Home")</li>
-            </ul>
-        </div>
-    </nav>
+    @Html.Partial("_NavBar")
  
         @RenderBody()
         <hr />

@@ -9,7 +9,7 @@ namespace Bostream.Controllers
     public class InformationController : Controller
     {
         // GET: Information
-        public ActionResult Index()
+        public ActionResult InformationForm()
         {
             return View();
         }

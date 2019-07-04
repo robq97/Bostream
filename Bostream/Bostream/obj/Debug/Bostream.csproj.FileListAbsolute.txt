@@ -237,3 +237,4 @@ C:\Users\robq9\Documents\GitHub\Bostream\Bostream\Bostream\obj\Debug\Bostream.cs
 C:\Users\robq9\Documents\GitHub\Bostream\Bostream\Bostream\obj\Debug\Bostream.dll
 C:\Users\robq9\Documents\GitHub\Bostream\Bostream\Bostream\obj\Debug\Bostream.pdb
 C:\Users\robq9\Documents\GitHub\Bostream\Bostream\Bostream\obj\Debug\Bostream.csprojAssemblyReference.cache
+C:\Users\robq9\Documents\GitHub\Bostream\Bostream\Bostream\bin\WebActivatorEx.dll
