@@ -156,6 +156,10 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="img\ej1.PNG" />
+    <Content Include="img\ej2.PNG" />
+    <Content Include="img\ej3.PNG" />
+    <Content Include="img\ej4.PNG" />
     <Content Include="img\emailSmall.png" />
     <Content Include="img\facebook.png" />
     <Content Include="img\facebookSmall.png" />
@@ -199,13 +203,13 @@
     <Content Include="Views\Information\InformationForm.cshtml" />
     <Content Include="Views\Shared\_Footer.cshtml" />
     <Content Include="Views\Service\ServiceList.cshtml" />
+    <Content Include="Views\Work\WorkGallery.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Views\Admin\" />
     <Folder Include="Views\Contact\" />
     <Folder Include="Views\Task\" />
-    <Folder Include="Views\Work\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

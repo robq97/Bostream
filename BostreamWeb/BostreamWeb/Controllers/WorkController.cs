@@ -9,7 +9,7 @@ namespace Bostream.Controllers
     public class WorkController : Controller
     {
         // GET: Work
-        public ActionResult Index()
+        public ActionResult WorkGallery()
         {
             return View();
         }
