@@ -32,7 +32,7 @@
     <div class="footer-copyright">
         <div class="container">
             &copy; @DateTime.Now.Year - Análisis, implementación, y diseño de sistemas
-            <a class="grey-text text-lighten-4 right" href="#!">Acceso Admin</a>
+            <a class="grey-text text-lighten-4 right" @Html.ActionLink("Acceso Admin", "LogIn", "Admin")</a>
         </div>
     </div>
 </footer>

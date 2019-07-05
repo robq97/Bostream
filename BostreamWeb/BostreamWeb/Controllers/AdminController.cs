@@ -9,7 +9,7 @@ namespace Bostream.Controllers
     public class AdminController : Controller
     {
         // GET: Admin
-        public ActionResult Index()
+        public ActionResult LogIn()
         {
             return View();
         }
