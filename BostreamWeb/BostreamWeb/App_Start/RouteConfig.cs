@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 
+//Da el formato de las direcciones de URL
 namespace BostreamWeb
 {
     public class RouteConfig

@@ -8,7 +8,10 @@ namespace Bostream.Controllers
 {
     public class ContactController : Controller
     {
-        // GET: ContactClient
+        /// <summary>
+        /// Muestra datos de un contacto.
+        /// </summary>
+        /// <returns>Vista de un contacto.</returns>
         public ActionResult Index()
         {
             return View();

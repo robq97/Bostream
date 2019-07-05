@@ -8,7 +8,10 @@ namespace Bostream.Controllers
 {
     public class TaskController : Controller
     {
-        // GET: Task
+        /// <summary>
+        /// Muestra información de tarea asignada a un contacto.
+        /// </summary>
+        /// <returns>Vista de datos de una tarea.</returns>
         public ActionResult Index()
         {
             return View();

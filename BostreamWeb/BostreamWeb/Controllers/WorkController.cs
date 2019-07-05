@@ -8,7 +8,10 @@ namespace Bostream.Controllers
 {
     public class WorkController : Controller
     {
-        // GET: Work
+        /// <summary>
+        /// Llama a método de la galería del portafolio de trabajos de Bostream.
+        /// </summary>
+        /// <returns>Vista del portafolio de trabajos.</returns>
         public ActionResult WorkGallery()
         {
             return View();

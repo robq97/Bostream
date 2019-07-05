@@ -8,6 +8,10 @@ namespace Bostream.Controllers
 {
     public class HomeController : Controller
     {
+        /// <summary>
+        /// Muestra vista del homepage
+        /// </summary>
+        /// <returns>Vista del homepage.</returns>
         public ActionResult Index()
         {
             return View();

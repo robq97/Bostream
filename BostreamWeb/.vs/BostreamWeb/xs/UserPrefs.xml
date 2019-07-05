@@ -1,26 +1,30 @@
 ﻿<Properties StartupConfiguration="{758A294A-A584-47C5-AC04-247766C524D5}|">
   <MonoDevelop.Ide.ItemProperties.BostreamWeb PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="BostreamWeb/Models/Service.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BostreamWeb/Controllers/HomeController.cs">
     <Files>
-      <File FileName="BostreamWeb/Views/Information/InformationForm.cshtml" Line="40" Column="60" />
-      <File FileName="BostreamWeb/css/materialize.css" Line="9085" Column="2" />
-      <File FileName="BostreamWeb/Models/Service.cs" Line="1" Column="1" />
+      <File FileName="BostreamWeb/Views/Information/InformationForm.cshtml" Line="53" Column="19" />
+      <File FileName="BostreamWeb/css/materialize.css" Line="6869" Column="30" />
+      <File FileName="BostreamWeb/Controllers/HomeController.cs" Line="12" Column="30" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="BostreamWeb" expanded="True">
             <Node name="BostreamWeb" expanded="True">
+              <Node name="App_Start" expanded="True" />
+              <Node name="Controllers" expanded="True" />
               <Node name="css" expanded="True" />
-              <Node name="js" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="Service.cs" selected="True" />
-              </Node>
+              <Node name="img" selected="True" />
+              <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
+                <Node name="Admin" expanded="True" />
                 <Node name="Home" expanded="True" />
                 <Node name="Information" expanded="True" />
                 <Node name="Shared" expanded="True" />
               </Node>
+            </Node>
+            <Node name="BostreamWeb.Tests" expanded="True">
+              <Node name="Controllers" expanded="True" />
             </Node>
           </Node>
         </State>
