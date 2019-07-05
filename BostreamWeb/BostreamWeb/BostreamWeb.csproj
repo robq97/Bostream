@@ -146,16 +146,26 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\bootstrap-theme.css" />
-    <Content Include="Content\bootstrap-theme.min.css" />
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
     <Content Include="css\materialize.css" />
     <Content Include="css\materialize.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
+    <Content Include="img\ej1.PNG" />
+    <Content Include="img\ej2.PNG" />
+    <Content Include="img\ej3.PNG" />
+    <Content Include="img\ej4.PNG" />
+    <Content Include="img\emailSmall.png" />
+    <Content Include="img\facebook.png" />
+    <Content Include="img\facebookSmall.png" />
+    <Content Include="img\graphicSmall.jpg" />
+    <Content Include="img\instagram.png" />
+    <Content Include="img\instagramSmall.png" />
+    <Content Include="img\logo.png" />
+    <Content Include="img\logoSmall.png" />
+    <Content Include="img\phone.jpg" />
+    <Content Include="img\phoneSmall.jpg" />
+    <Content Include="img\pineappleSmall.jpg" />
     <Content Include="js\materialize.js" />
     <Content Include="js\materialize.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -186,24 +196,21 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\_NavBar.cshtml" />
     <Content Include="Views\Information\InformationForm.cshtml" />
+    <Content Include="Views\Shared\_Footer.cshtml" />
+    <Content Include="Views\Service\ServiceList.cshtml" />
+    <Content Include="Views\Work\WorkGallery.cshtml" />
+    <Content Include="Views\Admin\LogIn.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Admin\" />
     <Folder Include="Views\Contact\" />
-    <Folder Include="Views\Service\" />
     <Folder Include="Views\Task\" />
-    <Folder Include="Views\Work\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Content\bootstrap.min.css.map" />
-    <Content Include="Content\bootstrap.css.map" />
-    <Content Include="Content\bootstrap-theme.min.css.map" />
-    <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
