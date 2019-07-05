@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{758A294A-A584-47C5-AC04-247766C524D5}|">
+  <MonoDevelop.Ide.ItemProperties.BostreamWeb PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BostreamWeb/Models/Service.cs">
+    <Files>
+      <File FileName="BostreamWeb/Views/Information/InformationForm.cshtml" Line="40" Column="60" />
+      <File FileName="BostreamWeb/css/materialize.css" Line="9085" Column="2" />
+      <File FileName="BostreamWeb/Models/Service.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BostreamWeb" expanded="True">
+            <Node name="BostreamWeb" expanded="True">
+              <Node name="css" expanded="True" />
+              <Node name="js" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Service.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Information" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
