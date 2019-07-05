@@ -8,7 +8,10 @@ namespace Bostream.Controllers
 {
     public class ServiceController : Controller
     {
-        // GET: Service
+        /// <summary>
+        /// Muestra listado de servicios ofrecidos por Bostream.
+        /// </summary>
+        /// <returns>Vista de los servicios.</returns>
         public ActionResult ServiceList()
         {
             return View();

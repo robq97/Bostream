@@ -8,7 +8,10 @@ namespace Bostream.Controllers
 {
     public class InformationController : Controller
     {
-        // GET: Information
+        /// <summary>
+        /// Muestra formulario de contacto.
+        /// </summary>
+        /// <returns>Vista de formulario de contacto.</returns>
         public ActionResult InformationForm()
         {
             return View();
