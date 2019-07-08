@@ -23,9 +23,11 @@
         <footer>
             @Html.Partial("_Footer")
         </footer>
+
         @Scripts.Render("~/bundles/jquery")
         @RenderSection("scripts", required: false)
     </main>
     <script src="~/Public/js/materialize.min.js"></script>
+    <script>  M.AutoInit();</script>
 </body>
 </html>
