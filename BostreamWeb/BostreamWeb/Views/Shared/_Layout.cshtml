@@ -10,19 +10,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
     <title>Bostream</title>
-    <link rel="stylesheet" href="~/Public/css/materialize.min.css">
+    <link rel="stylesheet" href="~/Public/css/materialize.css">
     @RenderSection("CSS", required: false)
 </head>
 <body>
-    @Html.Partial("_NavBar")
-    <div class="container body-content">
-        @RenderBody()
-    </div>
+    <main>
+        @Html.Partial("_NavBar")
+        <div class="container body-content">
+            @RenderBody()
+        </div>
         <hr />
-    @Html.Partial("_Footer")
-
+        <footer>
+            @Html.Partial("_Footer")
+        </footer>
         @Scripts.Render("~/bundles/jquery")
         @RenderSection("scripts", required: false)
+    </main>
+    <script src="~/Public/js/materialize.min.js"></script>
 </body>
-<script src="~/Public/js/materialize.min.js"></script>
 </html>
