@@ -197,23 +197,6 @@
     <Content Include="Public\css\materialize.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
-    <Content Include="img\ej1.PNG" />
-    <Content Include="img\ej2.PNG" />
-    <Content Include="img\ej3.PNG" />
-    <Content Include="img\ej4.PNG" />
-    <Content Include="img\emailSmall.png" />
-    <Content Include="img\facebook.png" />
-    <Content Include="img\facebookSmall.png" />
-    <Content Include="img\graphicSmall.jpg" />
-    <Content Include="img\instagram.png" />
-    <Content Include="img\instagramSmall.png" />
-    <Content Include="img\logo.png" />
-    <Content Include="img\logoSmall.png" />
-    <Content Include="img\phone.jpg" />
-    <Content Include="img\phoneSmall.jpg" />
-    <Content Include="img\pineappleSmall.jpg" />
-    <Content Include="js\materialize.js" />
-    <Content Include="js\materialize.min.js" />
     <Content Include="Models\BostreamModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>BostreamModel.edmx</DependentUpon>

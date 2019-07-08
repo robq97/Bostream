@@ -162,3 +162,7 @@ C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\EntityFram
 C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\EntityFramework.SqlServer.dll
 C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\EntityFramework.xml
 C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\EntityFramework.SqlServer.xml
+C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\EntityFramework.dll
+C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\EntityFramework.SqlServer.dll
+C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\EntityFramework.xml
+C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\EntityFramework.SqlServer.xml
