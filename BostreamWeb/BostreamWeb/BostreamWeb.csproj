@@ -193,11 +193,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="css\materialize.css" />
-    <Content Include="css\materialize.min.css" />
+    <Content Include="Public\css\materialize.css" />
+    <Content Include="Public\css\materialize.min.css" />
     <Content Include="favicon.ico" />
-    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+<<<<<<< HEAD
     <Content Include="img\ej1.PNG" />
     <Content Include="img\ej2.PNG" />
     <Content Include="img\ej3.PNG" />
@@ -225,6 +225,25 @@
       <DependentUpon>BostreamModel.edmx</DependentUpon>
       <LastGenOutput>BostreamModel.cs</LastGenOutput>
     </Content>
+=======
+    <Content Include="Public\img\ej1.PNG" />
+    <Content Include="Public\img\ej2.PNG" />
+    <Content Include="Public\img\ej3.PNG" />
+    <Content Include="Public\img\ej4.PNG" />
+    <Content Include="Public\img\emailSmall.png" />
+    <Content Include="Public\img\facebook.png" />
+    <Content Include="Public\img\facebookSmall.png" />
+    <Content Include="Public\img\graphicSmall.jpg" />
+    <Content Include="Public\img\instagram.png" />
+    <Content Include="Public\img\instagramSmall.png" />
+    <Content Include="Public\img\logo.png" />
+    <Content Include="Public\img\logoSmall.png" />
+    <Content Include="Public\img\phone.jpg" />
+    <Content Include="Public\img\phoneSmall.jpg" />
+    <Content Include="Public\img\pineappleSmall.jpg" />
+    <Content Include="Public\js\materialize.js" />
+    <Content Include="Public\js\materialize.min.js" />
+>>>>>>> 8eedb23cac0f57e76129689cf331b6b07543abc3
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <EntityDeploy Include="Models\BostreamModel.edmx">
@@ -256,7 +275,6 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\_NavBar.cshtml" />
     <Content Include="Views\Information\InformationForm.cshtml" />
@@ -272,10 +290,6 @@
     <Folder Include="Views\Task\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />

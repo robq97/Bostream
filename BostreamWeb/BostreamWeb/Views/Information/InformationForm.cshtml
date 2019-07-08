@@ -10,72 +10,78 @@
 <!--HTML Form para datos de "Contáctenos"-->
 <!---->
 <div class="row">
-    <form class="col s12 hoverable grey darken-1">
+    <form class="col s12 hoverable grey darken-1 z-depth-3">
         <div class="col s12 card-panel center">
-            <h6>Para más información:</h6>
+            <h6 style="margin-bottom: 2%;">Para más información:</h6>
         </div>
         <div class="row">
-            <div class="input-field.inline input col s3 offset-s1">
-                <input id="FirstName" type="text" class="validate white-text" placeholder="">
+            <div class="input-field input col s3 offset-s1">
+                <input id="FirstName" type="text" class="validate white-text">
                 <label class="white-text" for="FirstName">Nombre:</label>
             </div>
-            <div class="input-field.inline col s3">
+            <div class="input-field col s3">
                 <input id="LastName" type="text" class="validate white-text">
                 <label class="white-text" for="LastName">Apellido:</label>
             </div>
-            <div class="input-field.inline col s4">
+            <div class="input-field col s4">
                 <input id="Company" type="text" class="validate white-text">
                 <label class="white-text" for="Company">Organización/compañía:</label>
             </div>
         </div>
         <div class="row">
-            <div class="input-field.inline col s4 offset-s1">
+            <div class="input-field col s6 offset-s1">
                 <input id="Email" type="email" class="validate white-text">
                 <label class="white-text" for="Email">Correo electrónico:</label>
             </div>
-            <div class="input-field.inline col s2">
-                <input id="PhoneNum" type="number" class="validate white-text">
-                <label class="white-text" for="Notes">Número de teléfono:</label>
+            <div class="input-field col s4">
+                <input id="PhoneNum" type="tel" class="validate white-text">
+                <label class="white-text" for="PhoneNum">Número de teléfono:</label>
             </div>
-            <div>
-                <p>
-                    <label>
-                        <input id="SocialNetwork" type="checkbox" class="filled-in" />
-                        <span class="white-text ">Manejo de redes sociales</span>
-                    </label>
-                </p>
-                <p>
-                    <label>
-                        <input id="ContentCreation" type="checkbox" class="filled-in" />
-                        <span class="white-text ">Creación de contenido</span>
-                    </label>
-                </p>
+            <div class="input-field col s4 offset-s1">
+                <div class="container offset-s1 ">
+                    <p>
+                        <label>
+                            <input id="SocialNetwork" type="checkbox" class="filled-in" />
+                            <span class="white-text ">Manejo de redes sociales</span>
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <input id="ContentCreation" type="checkbox" class="filled-in" />
+                            <span class="white-text ">Creación de contenido</span>
+                        </label>
+                    </p>
+                </div>
+             </div>
+                <div class="input-field col s5 offset-s1">
+                    <p>
+                        <label>
+                            <input id="GraphicDesign" type="checkbox" class="filled-in" />
+                            <span class="white-text ">Diseño gráfico</span>
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <input id="Other" type="checkbox" class="filled-in" />
+                            <span class="white-text ">Otro</span>
+                        </label>
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="input-field col s10 offset-s1">
+                        <textarea id="Notes" type="text" class="materialize-textarea white-text"></textarea>
+                        <label class="white-text" for="Notes">Comentarios adicionales:</label>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="input-field.inline col s6 offset-s1">
-                <textarea id="Notes" type="text" class="materialize-textarea white-text"></textarea>
-                <label class="white-text" for="Notes">Comentarios adicionales:</label>
+            <div class="center" style="margin-bottom: 5%">
+                <button class="btn waves-effect waves-light orange darken-4" type="submit" name="action">
+                    Enviar
+                    <i class="material-icons right">send</i>
+                </button>
             </div>
-            <div>
-                <p>
-                    <label>
-                        <input id="GraphicDesign" type="checkbox" class="filled-in" />
-                        <span class="white-text ">Diseño gráfico</span>
-                    </label>
-                </p>
-                <p>
-                    <label>
-                        <input id="Other" type="checkbox" class="filled-in" />
-                        <span class="white-text ">Otro</span>
-                    </label>
-                </p>
-            </div>
-        </div>
-    </form>
+</form>
 </div>
-
-<br>
 <br>
 
 <address>
