@@ -166,7 +166,6 @@
     <Compile Include="Models\Client.cs">
       <DependentUpon>BostreamModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\Contact.cs" />
     <Compile Include="Models\Customer.cs">
       <DependentUpon>BostreamModel.tt</DependentUpon>
     </Compile>
