@@ -197,7 +197,6 @@
     <Content Include="Public\css\materialize.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
-<<<<<<< HEAD
     <Content Include="img\ej1.PNG" />
     <Content Include="img\ej2.PNG" />
     <Content Include="img\ej3.PNG" />
@@ -225,7 +224,6 @@
       <DependentUpon>BostreamModel.edmx</DependentUpon>
       <LastGenOutput>BostreamModel.cs</LastGenOutput>
     </Content>
-=======
     <Content Include="Public\img\ej1.PNG" />
     <Content Include="Public\img\ej2.PNG" />
     <Content Include="Public\img\ej3.PNG" />
@@ -243,7 +241,6 @@
     <Content Include="Public\img\pineappleSmall.jpg" />
     <Content Include="Public\js\materialize.js" />
     <Content Include="Public\js\materialize.min.js" />
->>>>>>> 8eedb23cac0f57e76129689cf331b6b07543abc3
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <EntityDeploy Include="Models\BostreamModel.edmx">
