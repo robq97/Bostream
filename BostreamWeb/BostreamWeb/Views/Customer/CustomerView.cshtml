@@ -1,0 +1,48 @@
+﻿
+@model IEnumerable<BostreamWeb.Models.CustomerViewModel>
+@{
+
+    ViewBag.Title = "Prueba de customers";
+    Layout = null;
+}
+    <div class="container" style=" width:60%;margin-top:2%"> 
+        @if (Model != null)
+        {
+            <table class="table table-stripped ">
+
+               <tr>
+                   <th> ID </th>
+                   <th> Company Name </th>
+                   <th> Phone </th>
+                   <th> Note </th>
+                   <th> TaskID </th>
+                   <th> PersonID </th>
+                   <th> Quotations </th>
+               </tr>
+
+
+               <tbody>
+
+                  @foreach (var item in Model)
+                   {
+
+                   <tr>
+                       <td>@item.CustomerID</td>
+                       <td>@item.CompanyName</td>
+                       <td>@item.Phone</td>
+                       <td>@item.Note</td>
+                       <td>@item.TaskID</td>
+                       <td>@item.PersonID</td>
+                       <td>@item.Quotations</td>
+
+                   </tr>
+                   }
+
+
+                   <tr></tr>
+               </tbody>
+           </table>
+
+        }
+</div>
+

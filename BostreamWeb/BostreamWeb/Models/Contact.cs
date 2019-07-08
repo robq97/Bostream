@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BostreamWeb.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -14,6 +15,6 @@ namespace Bostream.Models
         public string Company { get; set; }
         public string PhoneNum { get; set; }
         public string Notes { get; set; }
-        public Task Task { get; set; }
+        public virtual Task Task { get; set; }
     }
 }
