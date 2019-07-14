@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
@@ -138,6 +138,7 @@
     <Compile Include="Controllers\CustomerController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\InformationController.cs" />
+    <Compile Include="Controllers\QuotationController.cs" />
     <Compile Include="Controllers\ServiceController.cs" />
     <Compile Include="Controllers\TaskController.cs" />
     <Compile Include="Controllers\WorkController.cs" />
@@ -176,12 +177,14 @@
     <Compile Include="Models\Person.cs">
       <DependentUpon>BostreamModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\PersonViewModel.cs" />
     <Compile Include="Models\Quotation.cs">
       <DependentUpon>BostreamModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Service.cs">
       <DependentUpon>BostreamModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\ServiceViewModel.cs" />
     <Compile Include="Models\sysdiagram.cs">
       <DependentUpon>BostreamModel.tt</DependentUpon>
     </Compile>
@@ -262,6 +265,11 @@
     <Content Include="Views\Work\WorkGallery.cshtml" />
     <Content Include="Views\Admin\LogIn.cshtml" />
     <Content Include="Views\Customer\CustomerView.cshtml" />
+
+    <Content Include="Views\Quotation\Index.cshtml" />
+
+    <Content Include="Views\Customer\Contact.cshtml" />
+ 6a88d4996caae3fe877d52e016a7b3d1766736be
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

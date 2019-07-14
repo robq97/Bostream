@@ -11,13 +11,22 @@ namespace BostreamWeb.Models
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.ComponentModel.DataAnnotations;
+
     public partial class Admin
     {
         public int AdminId { get; set; }
+
+        [Required(ErrorMessage = "Field required")]
+        [DataType(DataType.Password)]
         public string Password { get; set; }
+
+        [Required(ErrorMessage = "Field required")]
+        public string Username { get; set; }
+
         public int PersonId { get; set; }
     
         public virtual Person Person { get; set; }
+        public object LoginErrorMessage { get; internal set; }
     }
 }
