@@ -12,7 +12,7 @@ namespace Bostream.Controllers
         /// Muestra información de tarea asignada a un contacto.
         /// </summary>
         /// <returns>Vista de datos de una tarea.</returns>
-        public ActionResult Index()
+        public ActionResult NewTask()
         {
             return View();
         }

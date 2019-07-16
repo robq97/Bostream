@@ -14,9 +14,11 @@ namespace BostreamWeb.Models
     
     public partial class Quotation
     {
-        public int QuotationID { get; set; }
-        public int CustomerID { get; set; }
-        public int ServiceID { get; set; }
+        public int QuotationId { get; set; }
+        public int CustomerId { get; set; }
+        public List<int> Services { get; set; }
+        public decimal TotalPrice { get; set; }
+
         public System.DateTime CreationDate { get; set; }
         public System.DateTime ExpirationDate { get; set; }
     

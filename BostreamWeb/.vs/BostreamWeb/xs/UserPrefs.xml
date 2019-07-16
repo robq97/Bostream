@@ -1,32 +1,38 @@
 ﻿<Properties StartupConfiguration="{758A294A-A584-47C5-AC04-247766C524D5}|">
   <MonoDevelop.Ide.ItemProperties.BostreamWeb PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="BostreamWeb/Controllers/AdminController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BostreamWeb/Models/Service.cs">
     <Files>
-      <File FileName="BostreamWeb/Views/Information/InformationForm.cshtml" Line="53" Column="19" />
-      <File FileName="BostreamWeb/Controllers/HomeController.cs" Line="16" Column="10" />
-      <File FileName="BostreamWeb/Models/AdminUser.cs" Line="9" Column="32" />
-      <File FileName="BostreamWeb/Views/Admin/LogIn.cshtml" Line="1" Column="1" />
-      <File FileName="BostreamWeb/Controllers/AdminController.cs" Line="1" Column="1" />
+      <File FileName="BostreamWeb/Views/Admin/LogIn.cshtml" Line="26" Column="28" />
+      <File FileName="BostreamWeb/Models/Task.cs" />
+      <File FileName="BostreamWeb/Models/Service.cs" Line="1" Column="1" />
+      <File FileName="BostreamWeb/Controllers/HomeController.cs" />
+      <File FileName="BostreamWeb/Controllers/TaskController.cs" />
+      <File FileName="BostreamWeb/Models/Client.cs" />
+      <File FileName="BostreamWeb/Views/Information/InformationForm.cshtml" />
+      <File FileName="BostreamWeb/Views/Shared/_NavBar.cshtml" Line="16" Column="80" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="BostreamWeb" expanded="True">
             <Node name="BostreamWeb" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="AdminController.cs" selected="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="BostreamModel.edmx" expanded="True">
+                  <Node name="BostreamModel.tt" expanded="True">
+                    <Node name="Service.cs" selected="True" />
+                  </Node>
+                </Node>
               </Node>
-              <Node name="css" expanded="True" />
-              <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Admin" expanded="True" />
                 <Node name="Home" expanded="True" />
                 <Node name="Information" expanded="True" />
+                <Node name="Quotation" expanded="True" />
+                <Node name="Service" expanded="True" />
                 <Node name="Shared" expanded="True" />
+                <Node name="Work" expanded="True" />
               </Node>
-            </Node>
-            <Node name="BostreamWeb.Tests" expanded="True">
-              <Node name="Controllers" expanded="True" />
             </Node>
           </Node>
         </State>
