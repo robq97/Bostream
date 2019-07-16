@@ -20,7 +20,7 @@ namespace BostreamWeb.Models
             this.Quotations = new HashSet<Quotation>();
         }
     
-        public int ServiceID { get; set; }
+        public int ServiceId { get; set; }
         public string Name { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

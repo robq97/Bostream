@@ -20,12 +20,12 @@ namespace BostreamWeb.Models
             this.Quotations = new HashSet<Quotation>();
         }
     
-        public int CustomerID { get; set; }
+        public int CustomerId { get; set; }
         public string CompanyName { get; set; }
         public int Phone { get; set; }
         public string Note { get; set; }
         public Nullable<int> TaskID { get; set; }
-        public int PersonID { get; set; }
+        public int PersonId { get; set; }
     
         //llave foranea a persona
         public virtual Person Person { get; set; }

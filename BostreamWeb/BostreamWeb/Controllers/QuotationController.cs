@@ -9,7 +9,7 @@ namespace BostreamWeb.Controllers
     public class QuotationController : Controller
     {
         // GET: Quotation
-        public ActionResult Index()
+        public ActionResult NewQuotation()
         {
             return View();
         }

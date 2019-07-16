@@ -22,12 +22,12 @@ namespace BostreamWeb.Controllers
 
             List<CustomerViewModel> customerViewModelList = customerList.Select(x => new CustomerViewModel
             {
-                CustomerID = x.CustomerID,
+                CustomerID = x.CustomerId,
                 CompanyName = x.CompanyName,
                 Phone = x.Phone,
                 Note = x.Note,
                 TaskID = x.TaskID,
-                PersonID = x.PersonID,
+                PersonID = x.PersonId,
                 Quotations = x.Quotations
             }).ToList();
 

@@ -1,27 +1,30 @@
 ﻿<Properties StartupConfiguration="{758A294A-A584-47C5-AC04-247766C524D5}|">
   <MonoDevelop.Ide.ItemProperties.BostreamWeb PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="BostreamWeb/Models/Service.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BostreamWeb/Controllers/QuotationController.cs">
     <Files>
       <File FileName="BostreamWeb/Views/Admin/LogIn.cshtml" Line="26" Column="28" />
       <File FileName="BostreamWeb/Models/Task.cs" />
-      <File FileName="BostreamWeb/Models/Service.cs" Line="1" Column="1" />
+      <File FileName="BostreamWeb/Models/Service.cs" Line="13" Column="38" />
       <File FileName="BostreamWeb/Controllers/HomeController.cs" />
       <File FileName="BostreamWeb/Controllers/TaskController.cs" />
-      <File FileName="BostreamWeb/Models/Client.cs" />
+      <File FileName="BostreamWeb/Models/Client.cs" Line="1" Column="1" />
       <File FileName="BostreamWeb/Views/Information/InformationForm.cshtml" />
       <File FileName="BostreamWeb/Views/Shared/_NavBar.cshtml" Line="16" Column="80" />
+      <File FileName="BostreamWeb/Models/Quotation.cs" Line="1" Column="1" />
+      <File FileName="BostreamWeb/Models/Customer.cs" Line="28" Column="28" />
+      <File FileName="BostreamWeb/Controllers/QuotationController.cs" Line="12" Column="41" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="BostreamWeb" expanded="True">
             <Node name="BostreamWeb" expanded="True">
-              <Node name="Controllers" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="QuotationController.cs" selected="True" />
+              </Node>
               <Node name="Models" expanded="True">
                 <Node name="BostreamModel.edmx" expanded="True">
-                  <Node name="BostreamModel.tt" expanded="True">
-                    <Node name="Service.cs" selected="True" />
-                  </Node>
+                  <Node name="BostreamModel.tt" expanded="True" />
                 </Node>
               </Node>
               <Node name="Views" expanded="True">

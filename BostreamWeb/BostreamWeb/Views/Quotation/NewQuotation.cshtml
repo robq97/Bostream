@@ -14,8 +14,7 @@
 </head>
 
 <body>
-    
-    <html>
+
 <br>
 <br>
 
@@ -23,43 +22,64 @@
 <!---->
 <div class="row">
     <form class="col s12 hoverable grey darken-1 z-depth-3">
+
         <div class="col s12 card-panel center">
             <h6 style="margin-bottom: 2%;">Crear nueva cotización:</h6>
         </div>
+
         <div class="row">
-            <div class="input-field input col s3 offset-s1">
+
+            <div class="input-field input col s2 offset-s1">
                 <input id="QuotationId" type="number" class="white-text" step=".01">
                 <label class="white-text" for="Title">ID de la cotización:</label>
             </div>
-            <div class="input-field input col s3">
-                <input id="ClientId" type="number" class="validate white-text">
-                <label class="white-text" for="ClientId">ID de cliente:</label>
-            </div>
-        </div>
-        <div class="row">
-            <div class="input-field col s5 offset-s1">
-                <textarea id="Description" type="text" class="materialize-textarea white-text"></textarea>
-                <label class="white-text" for="Description">Descripción de tarea:</label>
-            </div>   
+
             <div class="input-field input col s2">
-                <input id="Priority" type="number" class="validate white-text">
-                <label class="white-text" for="Priority">Prioridad de tarea:</label>
-            </div> 
-            <div class="input-field input col s3">
-                <input id="Priority" type="date" class="validate white-text">
-                <label class="white-text" for="Priority">Fecha límite de tarea:</label>
-            </div> 
-            <div class="center" style="margin-bottom: 5%">
-                <button class="btn waves-effect waves-light orange darken-4" type="submit" name="action">Enviar
-                    <i class="material-icons right">send</i>
-                </button>
+                <input id="CustomerId" type="number" class="validate white-text">
+                <label class="white-text" for="CustomerId">ID de cliente:</label>
             </div>
+
+            <div class="input-field col s3">
+                <div class="container">
+                    <p>
+                        <label>
+                            <input id="SocialNetwork" type="checkbox" class="filled-in" />
+                            <span class="white-text ">Manejo de redes sociales</span>
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <input id="ContentCreation" type="checkbox" class="filled-in" />
+                            <span class="white-text ">Creación de contenido</span>
+                        </label>
+                    </p>
+                </div>
+            </div>
+            <div class="input-field col s2">
+                <p>
+                    <label>
+                        <input id="GraphicDesign" type="checkbox" class="filled-in" />
+                        <span class="white-text ">Diseño gráfico</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input id="Other" type="checkbox" class="filled-in" />
+                        <span class="white-text ">Otro</span>
+                    </label>
+                </p>
+            </div>
+
         </div>
+
+        <div class="center" style="margin-bottom: 5%">
+            <button class="btn waves-effect waves-light orange darken-4" type="submit" name="action">Enviar
+                <i class="material-icons right">send</i>
+            </button>
+        </div>
+
     </form>
 </div>
-
-</html>
-
 </body>
 
 </html>
