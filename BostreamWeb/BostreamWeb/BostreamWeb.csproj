@@ -266,13 +266,12 @@
     <Content Include="Views\Work\WorkGallery.cshtml" />
     <Content Include="Views\Admin\LogIn.cshtml" />
     <Content Include="Views\Customer\CustomerView.cshtml" />
-    <Content Include="Views\Quotation\Index.cshtml" />
-    <Content Include="Views\Customer\Contact.cshtml" />
+    <Content Include="Views\Quotation\NewQuotation.cshtml" />
+    <Content Include="Views\Customer\NewCustomer.cshtml" />
+    <Content Include="Views\Task\NewTask.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Contact\" />
-    <Folder Include="Views\Task\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -309,11 +308,6 @@
         </WebProjectProperties>
       </FlavorProperties>
     </VisualStudio>
-    <MonoDevelop>
-      <Properties>
-        <XspParameters Port="8080" Address="127.0.0.1" SslMode="None" SslProtocol="Default" KeyType="None" CertFile="" KeyFile="" PasswordOptions="None" Password="" Verbose="True" />
-      </Properties>
-    </MonoDevelop>
   </ProjectExtensions>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

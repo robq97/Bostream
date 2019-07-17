@@ -22,12 +22,12 @@ namespace BostreamWeb.Controllers
 
             List<CustomerViewModel> customerViewModelList = customerList.Select(x => new CustomerViewModel
             {
-                CustomerID = x.CustomerId,
+                CustomerID = x.CustomerID,
                 CompanyName = x.CompanyName,
                 Phone = x.Phone,
                 Note = x.Note,
                 TaskID = x.TaskID,
-                PersonID = x.PersonId,
+                PersonID = x.PersonID,
                 Quotations = x.Quotations
             }).ToList();
 
@@ -38,5 +38,11 @@ namespace BostreamWeb.Controllers
         //{
         //    return View();
         //}
+
+        public ActionResult NewCustomer()
+        {
+            return View();
+        }
+
     }
 }

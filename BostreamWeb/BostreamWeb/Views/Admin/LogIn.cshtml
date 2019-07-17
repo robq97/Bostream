@@ -5,31 +5,31 @@
 <h5>@ViewBag.Title</h5>
 
 <div class="container lighten-5 col m6 z-depth-3 center" style="margin-top: 20%; margin-bottom: 30%">
-   <div id="login-div"> 
-       @using (Html.BeginForm("Authentication", "AdminController", FormMethod.Post))
-       {
-        <form class="col s6">
-            <div class="container center">
-                <div class="input-field col s7">
-                    <input id="ID" type="text" class="validate">
-                    <label for="ID">ID</label>
+    <div id="login-div">
+        @using (Html.BeginForm("Authentication", "Admin", FormMethod.Post))
+        {
+            <form class="col s6">
+                <div class="container center">
+                    <div class="input-field col s7">
+                        <input id="Username" type="text" class="validate">
+                        <label for="Username">ID</label>
+                    </div>
                 </div>
-            </div>
-
-            <div class="container center">
-                <div class="input-field col s7">
-                    <input id="password" type="password" class="validate">
-                    <label for="password">Password</label>
+                <div class="container center">
+                    <div class="input-field col s7">
+                        <input id="Password" type="password" class="validate">
+                        <label for="Password">Password</label>
+                    </div>
                 </div>
-            </div>
-            <div class="center" style="margin-bottom: 5%">
-                <button class="btn waves-effect waves-light orange darken-4" style="margin-bottom: 5%" type="submit" name="action">
-                    Ingresar
-                    <i class="material-icons right">send</i>
-                </button>
-            </div>
-        </form>
-       }
+                <div class="center" style="margin-bottom: 5%">
+                    <button class="btn waves-effect waves-light orange darken-4" style="margin-bottom: 5%" type="submit" name="action">
+                        Ingresar
+                        <i class="material-icons right">send</i>
+                    </button>
+                </div>
+            </form>
+        }
+    </div>
 </div>
    <script src="~/Scripts/jquery-3.3.1.js"></script>
    <script src="~/Scripts/jquery.validate.min.js"></script>

@@ -18,12 +18,12 @@ namespace Bostream.Controllers
         {
             return View();
         }
-
+        [HttpPost]
         public ActionResult Authentication(BostreamWeb.Models.Admin adminModel)
         {
             using (BostreamEntities1 db = new BostreamEntities1())
             {
-                var adminDetails = db.Admins.Where(x =>
+                var adminDetails = db.Admins.ToList().Where(x =>
                x.Username == adminModel.Username &&
                x.Password == adminModel.Password).FirstOrDefault();
                 if (adminDetails == null)
@@ -34,7 +34,7 @@ namespace Bostream.Controllers
                 else
                 {
                     Session["adminId"] = adminDetails.AdminId;
-                    return RedirectToAction("Index", "QuotationController");
+                    return RedirectToAction("NewCustomer", "Customer");
                 }
             }
         }
