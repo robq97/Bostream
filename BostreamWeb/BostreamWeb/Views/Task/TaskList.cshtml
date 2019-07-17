@@ -1,0 +1,30 @@
+﻿
+@model IEnumerable<BostreamWeb.Models.TaskViewModel>
+@{
+    ViewBag.Title = "Prueba de customers";
+}
+@if (Model != null)
+{
+    <table class="centered highlight" style="margin-top:5%;">
+        <thead class="z-depth-1">
+            <tr class="">
+                <th>Titulo: </th>
+                <th>Fecha Limite: </th>
+                <th>Descripción:</th>
+                <th>Prioridad:</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Title</td>
+                    <td>@item.Deadline</td>
+                    <td>@item.Description</td>
+                    <td>@item.Priority</td>
+           
+                </tr>
+            }
+        </tbody>
+    </table>
+}

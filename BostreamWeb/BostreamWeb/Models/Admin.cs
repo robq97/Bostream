@@ -17,20 +17,17 @@ using System;
     
 public partial class Admin
 {
-        internal string LoginErrorMessage;
 
-        public int AdminId { get; set; }
+    public int AdminId { get; set; }
 
     public string Password { get; set; }
 
     public int PersonId { get; set; }
 
-    public string Username { get; set; }
+        public string Username { get; set; }
 
-    
-
-    public virtual Person Person { get; set; }
-
-}
+        public virtual Person Person { get; set; }
+        public string LoginErrorMessage { get; internal set; }
+    }
 
 }

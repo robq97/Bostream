@@ -1,4 +1,5 @@
 ﻿using BostreamWeb.Models;
+using System.Data.Entity;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Mvc;
@@ -14,7 +15,7 @@ namespace BostreamWeb.Controllers
             BostreamEntities1 db = new BostreamEntities1();
 
             //lista de los customers que se encuentren en la base de datos
-            List<Customer> customerList = db.Customers.ToList();
+            List<Customer> customerList = db.Customers.Include(x => x.Task).ToList();
 
             //instancia de viewmodel se utiliza para manejar entity de customer
             //de esta manera, en caso de que se hagan cambios en customers, no se afecta el view
@@ -26,7 +27,7 @@ namespace BostreamWeb.Controllers
                 CompanyName = x.CompanyName,
                 Phone = x.Phone,
                 Note = x.Note,
-                TaskID = x.TaskID,
+                Task =  x.Task,
                 PersonID = x.PersonID,
                 Quotations = x.Quotations
             }).ToList();

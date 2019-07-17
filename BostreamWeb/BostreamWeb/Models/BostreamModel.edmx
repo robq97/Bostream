@@ -212,7 +212,7 @@
           <Property Name="CompanyName" Type="String" MaxLength="40" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="Phone" Type="Int32" Nullable="false" />
           <Property Name="Note" Type="String" MaxLength="300" FixedLength="false" Unicode="true" />
-          <Property Name="TaskID" Type="Int32" />
+          <Property Name="TaskID" Type="Int32" Nullable="true" />
           <Property Name="PersonID" Type="Int32" Nullable="false" />
           <NavigationProperty Name="Person" Relationship="Self.FK_Customer_Person" FromRole="Customer" ToRole="Person" />
           <NavigationProperty Name="Task" Relationship="Self.FK_Customer_Task" FromRole="Customer" ToRole="Task" />

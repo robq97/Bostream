@@ -192,6 +192,7 @@
     <Compile Include="Models\Task.cs">
       <DependentUpon>BostreamModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\TaskViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -269,6 +270,7 @@
     <Content Include="Views\Quotation\NewQuotation.cshtml" />
     <Content Include="Views\Customer\NewCustomer.cshtml" />
     <Content Include="Views\Task\NewTask.cshtml" />
+    <Content Include="Views\Task\TaskList.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
