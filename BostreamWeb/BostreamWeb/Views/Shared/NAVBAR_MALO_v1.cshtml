@@ -1,0 +1,33 @@
+<nav>
+    <div class="nav-wrapper orange darken-4">
+        <a> @Html.ActionLink("Bostream", "Index", "Home", new { area = "" }, new { @class = "brand-logo center" })</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li class="orange darken-3 active">@Html.ActionLink("¿Quiénes Somos?", "Index", "Home")</li>
+            <li class="orange darken-2 active">@Html.ActionLink("Servicios", "ServiceList", "Service")</li>
+            <li  class="orange darken-1 active">@Html.ActionLink("Trabajos", "WorkGallery", "Work")</li>
+            <li  class="orange active">@Html.ActionLink("Contáctenos", "InformationForm", "Information")</li>
+        </ul>
+    </div>
+    <ul id="dropdown-contactos" class="dropdown-content">
+        <li><a href="#!">@Html.ActionLink("Nuevo Contacto", "NewCustomer", "Customer")</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">@Html.ActionLink("Mis contactos", "CustomerView", "Customer")</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">@Html.ActionLink("Nueva Tarea", "NewTask", "Task")</a></li>
+    </ul>
+    <ul id="dropdown-cotizaciones" class="dropdown-content">
+        <li><a href="#!">@Html.ActionLink("Crear Cotización", "NewQuotation", "Quotation")</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">@Html.ActionLink("Cotizaciones", "QuotationList", "Quotation")</a></li>
+    </ul>
+    <div class="nav-wrapper teal">
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a class="teal lighten-1 dropdown-trigger" href="#!" data-target="dropdown-contactos">Contactos<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a class="teal lighten-2 dropdown-trigger" href="#!" data-target="dropdown-cotizaciones">Cotizaciones<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li class="teal lighten-3">@Html.ActionLink("Cerrar Sesión", "", "")</li>
+        </ul>
+    </div>
+
+</nav>
+
+

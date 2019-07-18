@@ -99,3 +99,7 @@ BostreamWeb/BostreamWeb/.DS_Store
 *.cache
 *.dll
 *.pdb
+*.ide-wal
+*.ide-shm
+*.ide
+*.xml
