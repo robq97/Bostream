@@ -1,336 +1,419 @@
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\BostreamWeb.dll.config
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\BostreamWeb.dll
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\BostreamWeb.pdb
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\csc.exe
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\csc.exe.config
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\csc.rsp
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\csi.exe
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\csi.exe.config
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\csi.rsp
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\Microsoft.Managed.Core.targets
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.AppContext.dll
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.Console.dll
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.IO.Compression.dll
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.IO.FileSystem.dll
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.IO.Pipes.AccessControl.dll
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.IO.Pipes.dll
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.Security.AccessControl.dll
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.Security.Claims.dll
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.Security.Principal.Windows.dll
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.ValueTuple.dll
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.Xml.ReaderWriter.dll
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.Xml.XmlDocument.dll
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.Xml.XPath.dll
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\vbc.exe
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\vbc.exe.config
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\vbc.rsp
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\VBCSCompiler.exe
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\Antlr3.Runtime.dll
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\Microsoft.AspNet.TelemetryCorrelation.dll
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\Newtonsoft.Json.dll
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\System.Diagnostics.DiagnosticSource.dll
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\System.Web.Helpers.dll
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\System.Web.Mvc.dll
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\System.Web.Optimization.dll
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\System.Web.Razor.dll
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\System.Web.WebPages.Deployment.dll
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\System.Web.WebPages.dll
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\System.Web.WebPages.Razor.dll
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\WebGrease.dll
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\System.Web.Helpers.xml
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\System.Web.Mvc.xml
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\System.Web.Optimization.xml
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\System.Web.Razor.xml
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\System.Web.WebPages.xml
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\System.Web.WebPages.Deployment.xml
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\System.Web.WebPages.Razor.xml
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\Newtonsoft.Json.xml
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\Antlr3.Runtime.pdb
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\System.Diagnostics.DiagnosticSource.xml
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\Microsoft.AspNet.TelemetryCorrelation.xml
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\obj\Debug\BostreamWeb.csprojAssemblyReference.cache
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\obj\Debug\BostreamWeb.csproj.CoreCompileInputs.cache
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\obj\Debug\BostreamWeb.csproj.CopyComplete
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\obj\Debug\BostreamWeb.dll
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\obj\Debug\BostreamWeb.pdb
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\EntityFramework.dll
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\EntityFramework.SqlServer.dll
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\EntityFramework.xml
-C:\Users\Andres\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\EntityFramework.SqlServer.xml
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\BostreamWeb.dll.config
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\BostreamWeb.dll
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\BostreamWeb.pdb
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\csc.exe
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\csc.exe.config
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\csc.rsp
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\csi.exe
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\csi.exe.config
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\csi.rsp
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\Microsoft.Managed.Core.targets
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.AppContext.dll
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.Console.dll
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.IO.Compression.dll
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.IO.FileSystem.dll
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.IO.Pipes.AccessControl.dll
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.IO.Pipes.dll
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.Security.AccessControl.dll
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.Security.Claims.dll
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.Security.Principal.Windows.dll
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.ValueTuple.dll
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.Xml.ReaderWriter.dll
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.Xml.XmlDocument.dll
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.Xml.XPath.dll
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\vbc.exe
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\vbc.exe.config
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\vbc.rsp
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\VBCSCompiler.exe
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\Antlr3.Runtime.dll
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\EntityFramework.dll
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\EntityFramework.SqlServer.dll
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\Microsoft.AspNet.TelemetryCorrelation.dll
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\Newtonsoft.Json.dll
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\System.Diagnostics.DiagnosticSource.dll
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\System.Web.Helpers.dll
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\System.Web.Mvc.dll
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\System.Web.Optimization.dll
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\System.Web.Razor.dll
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\System.Web.WebPages.Deployment.dll
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\System.Web.WebPages.dll
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\System.Web.WebPages.Razor.dll
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\WebGrease.dll
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\EntityFramework.xml
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\EntityFramework.SqlServer.xml
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\System.Web.Helpers.xml
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\System.Web.Mvc.xml
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\System.Web.Optimization.xml
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\System.Web.Razor.xml
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\System.Web.WebPages.xml
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\System.Web.WebPages.Deployment.xml
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\System.Web.WebPages.Razor.xml
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\Newtonsoft.Json.xml
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\Antlr3.Runtime.pdb
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\System.Diagnostics.DiagnosticSource.xml
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\Microsoft.AspNet.TelemetryCorrelation.xml
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\obj\Debug\BostreamWeb.csproj.CoreCompileInputs.cache
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\obj\Debug\BostreamWeb.csproj.CopyComplete
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\obj\Debug\BostreamWeb.dll
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\obj\Debug\BostreamWeb.pdb
-C:\Users\maria\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\obj\Debug\BostreamWeb.csprojAssemblyReference.cache
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\BostreamWeb.dll.config
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\BostreamWeb.dll
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\BostreamWeb.pdb
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\csc.exe
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\csc.exe.config
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\csc.rsp
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\csi.exe
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\csi.exe.config
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\csi.rsp
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\Microsoft.Managed.Core.targets
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.AppContext.dll
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.Console.dll
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.IO.Compression.dll
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.IO.FileSystem.dll
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.IO.Pipes.AccessControl.dll
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.IO.Pipes.dll
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.Security.AccessControl.dll
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.Security.Claims.dll
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.Security.Principal.Windows.dll
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.ValueTuple.dll
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.Xml.ReaderWriter.dll
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.Xml.XmlDocument.dll
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.Xml.XPath.dll
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\vbc.exe
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\vbc.exe.config
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\vbc.rsp
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\VBCSCompiler.exe
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\Antlr3.Runtime.dll
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\EntityFramework.dll
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\EntityFramework.SqlServer.dll
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\Microsoft.AspNet.TelemetryCorrelation.dll
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\Newtonsoft.Json.dll
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\System.Diagnostics.DiagnosticSource.dll
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\System.Web.Helpers.dll
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\System.Web.Mvc.dll
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\System.Web.Optimization.dll
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\System.Web.Razor.dll
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\System.Web.WebPages.Deployment.dll
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\System.Web.WebPages.dll
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\System.Web.WebPages.Razor.dll
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\WebGrease.dll
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\EntityFramework.xml
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\EntityFramework.SqlServer.xml
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\System.Web.Helpers.xml
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\System.Web.Mvc.xml
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\System.Web.Optimization.xml
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\System.Web.Razor.xml
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\System.Web.WebPages.xml
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\System.Web.WebPages.Deployment.xml
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\System.Web.WebPages.Razor.xml
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\Newtonsoft.Json.xml
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\Antlr3.Runtime.pdb
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\System.Diagnostics.DiagnosticSource.xml
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\Microsoft.AspNet.TelemetryCorrelation.xml
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\obj\Debug\BostreamWeb.csproj.CoreCompileInputs.cache
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\obj\Debug\BostreamWeb.csproj.CopyComplete
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\obj\Debug\BostreamWeb.dll
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\obj\Debug\BostreamWeb.pdb
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\obj\Debug\BostreamWeb.csprojAssemblyReference.cache
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\obj\Debug\BostreamWeb.csprojAssemblyReference.cache
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\obj\Debug\BostreamWeb.csproj.CoreCompileInputs.cache
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\obj\Debug\BostreamWeb.dll
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\obj\Debug\BostreamWeb.pdb
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\BostreamWeb.dll.config
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\BostreamWeb.dll
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\BostreamWeb.pdb
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\roslyn\csc.exe
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\roslyn\csc.exe.config
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\roslyn\csc.rsp
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\roslyn\csi.exe
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\roslyn\csi.exe.config
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\roslyn\csi.rsp
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\roslyn\Microsoft.Managed.Core.targets
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\roslyn\System.AppContext.dll
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\roslyn\System.Console.dll
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\roslyn\System.IO.Compression.dll
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\roslyn\System.IO.FileSystem.dll
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\roslyn\System.IO.Pipes.AccessControl.dll
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\roslyn\System.IO.Pipes.dll
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\roslyn\System.Security.AccessControl.dll
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\roslyn\System.Security.Claims.dll
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\roslyn\System.Security.Principal.Windows.dll
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\roslyn\System.ValueTuple.dll
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\roslyn\System.Xml.ReaderWriter.dll
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\roslyn\System.Xml.XmlDocument.dll
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\roslyn\System.Xml.XPath.dll
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\roslyn\vbc.exe
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\roslyn\vbc.exe.config
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\roslyn\vbc.rsp
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\roslyn\VBCSCompiler.exe
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\Antlr3.Runtime.dll
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\EntityFramework.dll
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\EntityFramework.SqlServer.dll
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\Microsoft.AspNet.TelemetryCorrelation.dll
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\Newtonsoft.Json.dll
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\System.Diagnostics.DiagnosticSource.dll
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\System.Web.Helpers.dll
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\System.Web.Mvc.dll
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\System.Web.Optimization.dll
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\System.Web.Razor.dll
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\System.Web.WebPages.Deployment.dll
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\System.Web.WebPages.dll
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\System.Web.WebPages.Razor.dll
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\WebGrease.dll
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\EntityFramework.xml
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\EntityFramework.SqlServer.xml
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\System.Web.Helpers.xml
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\System.Web.Mvc.xml
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\System.Web.Optimization.xml
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\System.Web.Razor.xml
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\System.Web.WebPages.xml
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\System.Web.WebPages.Deployment.xml
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\System.Web.WebPages.Razor.xml
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\Newtonsoft.Json.xml
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\Antlr3.Runtime.pdb
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\System.Diagnostics.DiagnosticSource.xml
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\Microsoft.AspNet.TelemetryCorrelation.xml
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\robq9\Desktop\Bostream-bb01c79b0750db0d330f83df7d2221302227d452\BostreamWeb\BostreamWeb\obj\Debug\BostreamWeb.csproj.CopyComplete
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/BostreamWeb.dll.config
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/BostreamWeb.dll
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/BostreamWeb.pdb
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/csc.exe
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/csc.exe.config
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/csc.rsp
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/csi.exe
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/csi.exe.config
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/csi.rsp
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.CodeAnalysis.dll
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.CSharp.Core.targets
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.Managed.Core.targets
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.VisualBasic.Core.targets
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.AppContext.dll
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Collections.Immutable.dll
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Console.dll
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Diagnostics.FileVersionInfo.dll
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Diagnostics.StackTrace.dll
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.IO.Compression.dll
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.IO.FileSystem.dll
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.IO.FileSystem.Primitives.dll
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.IO.Pipes.AccessControl.dll
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.IO.Pipes.dll
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Reflection.Metadata.dll
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Security.AccessControl.dll
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Security.Claims.dll
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Security.Cryptography.Algorithms.dll
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Security.Cryptography.Encoding.dll
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Security.Cryptography.Primitives.dll
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Security.Cryptography.X509Certificates.dll
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Security.Principal.Windows.dll
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Text.Encoding.CodePages.dll
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.ValueTuple.dll
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Xml.ReaderWriter.dll
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Xml.XmlDocument.dll
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Xml.XPath.dll
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Xml.XPath.XDocument.dll
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/vbc.exe
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/vbc.exe.config
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/vbc.rsp
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/VBCSCompiler.exe
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/VBCSCompiler.exe.config
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/Antlr3.Runtime.dll
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/Microsoft.AspNet.TelemetryCorrelation.dll
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/Microsoft.Web.Infrastructure.dll
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/Newtonsoft.Json.dll
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/System.Diagnostics.DiagnosticSource.dll
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.Helpers.dll
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.Mvc.dll
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.Optimization.dll
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.Razor.dll
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.WebPages.Deployment.dll
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.WebPages.dll
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.WebPages.Razor.dll
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/WebGrease.dll
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.Helpers.xml
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.Mvc.xml
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.Optimization.xml
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.Razor.xml
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.WebPages.xml
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.WebPages.Deployment.xml
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.WebPages.Razor.xml
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/Newtonsoft.Json.xml
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/Antlr3.Runtime.pdb
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/System.Diagnostics.DiagnosticSource.xml
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/Microsoft.AspNet.TelemetryCorrelation.xml
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/obj/Debug/BostreamWeb.csprojAssemblyReference.cache
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/obj/Debug/BostreamWeb.csproj.CoreCompileInputs.cache
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/obj/Debug/BostreamWeb.csproj.CopyComplete
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/obj/Debug/BostreamWeb.dll
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/obj/Debug/BostreamWeb.pdb
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/EntityFramework.dll
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/EntityFramework.SqlServer.dll
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/EntityFramework.xml
+C:/Users/Andres/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/EntityFramework.SqlServer.xml
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/BostreamWeb.dll.config
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/BostreamWeb.dll
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/BostreamWeb.pdb
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/csc.exe
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/csc.exe.config
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/csc.rsp
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/csi.exe
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/csi.exe.config
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/csi.rsp
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.CodeAnalysis.dll
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.CSharp.Core.targets
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.Managed.Core.targets
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.VisualBasic.Core.targets
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.AppContext.dll
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Collections.Immutable.dll
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Console.dll
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Diagnostics.FileVersionInfo.dll
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Diagnostics.StackTrace.dll
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.IO.Compression.dll
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.IO.FileSystem.dll
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.IO.FileSystem.Primitives.dll
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.IO.Pipes.AccessControl.dll
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.IO.Pipes.dll
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Reflection.Metadata.dll
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Security.AccessControl.dll
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Security.Claims.dll
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Security.Cryptography.Algorithms.dll
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Security.Cryptography.Encoding.dll
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Security.Cryptography.Primitives.dll
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Security.Cryptography.X509Certificates.dll
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Security.Principal.Windows.dll
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Text.Encoding.CodePages.dll
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.ValueTuple.dll
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Xml.ReaderWriter.dll
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Xml.XmlDocument.dll
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Xml.XPath.dll
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Xml.XPath.XDocument.dll
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/vbc.exe
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/vbc.exe.config
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/vbc.rsp
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/VBCSCompiler.exe
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/VBCSCompiler.exe.config
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/Antlr3.Runtime.dll
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/EntityFramework.dll
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/EntityFramework.SqlServer.dll
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/Microsoft.AspNet.TelemetryCorrelation.dll
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/Microsoft.Web.Infrastructure.dll
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/Newtonsoft.Json.dll
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/System.Diagnostics.DiagnosticSource.dll
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.Helpers.dll
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.Mvc.dll
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.Optimization.dll
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.Razor.dll
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.WebPages.Deployment.dll
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.WebPages.dll
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.WebPages.Razor.dll
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/WebGrease.dll
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/EntityFramework.xml
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/EntityFramework.SqlServer.xml
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.Helpers.xml
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.Mvc.xml
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.Optimization.xml
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.Razor.xml
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.WebPages.xml
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.WebPages.Deployment.xml
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.WebPages.Razor.xml
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/Newtonsoft.Json.xml
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/Antlr3.Runtime.pdb
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/System.Diagnostics.DiagnosticSource.xml
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/Microsoft.AspNet.TelemetryCorrelation.xml
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/obj/Debug/BostreamWeb.csproj.CoreCompileInputs.cache
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/obj/Debug/BostreamWeb.csproj.CopyComplete
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/obj/Debug/BostreamWeb.dll
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/obj/Debug/BostreamWeb.pdb
+C:/Users/maria/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/obj/Debug/BostreamWeb.csprojAssemblyReference.cache
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/BostreamWeb.dll.config
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/BostreamWeb.dll
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/BostreamWeb.pdb
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/csc.exe
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/csc.exe.config
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/csc.rsp
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/csi.exe
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/csi.exe.config
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/csi.rsp
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.CodeAnalysis.dll
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.CSharp.Core.targets
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.Managed.Core.targets
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.VisualBasic.Core.targets
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.AppContext.dll
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Collections.Immutable.dll
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Console.dll
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Diagnostics.FileVersionInfo.dll
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Diagnostics.StackTrace.dll
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.IO.Compression.dll
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.IO.FileSystem.dll
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.IO.FileSystem.Primitives.dll
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.IO.Pipes.AccessControl.dll
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.IO.Pipes.dll
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Reflection.Metadata.dll
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Security.AccessControl.dll
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Security.Claims.dll
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Security.Cryptography.Algorithms.dll
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Security.Cryptography.Encoding.dll
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Security.Cryptography.Primitives.dll
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Security.Cryptography.X509Certificates.dll
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Security.Principal.Windows.dll
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Text.Encoding.CodePages.dll
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.ValueTuple.dll
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Xml.ReaderWriter.dll
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Xml.XmlDocument.dll
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Xml.XPath.dll
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Xml.XPath.XDocument.dll
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/vbc.exe
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/vbc.exe.config
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/vbc.rsp
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/VBCSCompiler.exe
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/VBCSCompiler.exe.config
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/Antlr3.Runtime.dll
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/EntityFramework.dll
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/EntityFramework.SqlServer.dll
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/Microsoft.AspNet.TelemetryCorrelation.dll
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/Microsoft.Web.Infrastructure.dll
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/Newtonsoft.Json.dll
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/System.Diagnostics.DiagnosticSource.dll
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.Helpers.dll
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.Mvc.dll
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.Optimization.dll
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.Razor.dll
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.WebPages.Deployment.dll
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.WebPages.dll
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.WebPages.Razor.dll
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/WebGrease.dll
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/EntityFramework.xml
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/EntityFramework.SqlServer.xml
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.Helpers.xml
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.Mvc.xml
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.Optimization.xml
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.Razor.xml
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.WebPages.xml
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.WebPages.Deployment.xml
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.WebPages.Razor.xml
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/Newtonsoft.Json.xml
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/Antlr3.Runtime.pdb
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/System.Diagnostics.DiagnosticSource.xml
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/Microsoft.AspNet.TelemetryCorrelation.xml
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/obj/Debug/BostreamWeb.csproj.CoreCompileInputs.cache
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/obj/Debug/BostreamWeb.csproj.CopyComplete
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/obj/Debug/BostreamWeb.dll
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/obj/Debug/BostreamWeb.pdb
+C:/Users/robq9/Documents/GitHub/Bostream/BostreamWeb/BostreamWeb/obj/Debug/BostreamWeb.csprojAssemblyReference.cache
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/obj/Debug/BostreamWeb.csprojAssemblyReference.cache
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/obj/Debug/BostreamWeb.csproj.CoreCompileInputs.cache
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/obj/Debug/BostreamWeb.dll
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/obj/Debug/BostreamWeb.pdb
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/BostreamWeb.dll.config
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/BostreamWeb.dll
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/BostreamWeb.pdb
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/roslyn/csc.exe
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/roslyn/csc.exe.config
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/roslyn/csc.rsp
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/roslyn/csi.exe
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/roslyn/csi.exe.config
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/roslyn/csi.rsp
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.CodeAnalysis.dll
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.CSharp.Core.targets
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.Managed.Core.targets
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.VisualBasic.Core.targets
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/roslyn/System.AppContext.dll
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/roslyn/System.Collections.Immutable.dll
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/roslyn/System.Console.dll
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/roslyn/System.Diagnostics.FileVersionInfo.dll
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/roslyn/System.Diagnostics.StackTrace.dll
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/roslyn/System.IO.Compression.dll
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/roslyn/System.IO.FileSystem.dll
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/roslyn/System.IO.FileSystem.Primitives.dll
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/roslyn/System.IO.Pipes.AccessControl.dll
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/roslyn/System.IO.Pipes.dll
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/roslyn/System.Reflection.Metadata.dll
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/roslyn/System.Security.AccessControl.dll
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/roslyn/System.Security.Claims.dll
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/roslyn/System.Security.Cryptography.Algorithms.dll
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/roslyn/System.Security.Cryptography.Encoding.dll
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/roslyn/System.Security.Cryptography.Primitives.dll
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/roslyn/System.Security.Cryptography.X509Certificates.dll
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/roslyn/System.Security.Principal.Windows.dll
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/roslyn/System.Text.Encoding.CodePages.dll
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/roslyn/System.ValueTuple.dll
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/roslyn/System.Xml.ReaderWriter.dll
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/roslyn/System.Xml.XmlDocument.dll
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/roslyn/System.Xml.XPath.dll
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/roslyn/System.Xml.XPath.XDocument.dll
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/roslyn/vbc.exe
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/roslyn/vbc.exe.config
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/roslyn/vbc.rsp
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/roslyn/VBCSCompiler.exe
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/roslyn/VBCSCompiler.exe.config
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/Antlr3.Runtime.dll
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/EntityFramework.dll
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/EntityFramework.SqlServer.dll
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/Microsoft.AspNet.TelemetryCorrelation.dll
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/Microsoft.Web.Infrastructure.dll
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/Newtonsoft.Json.dll
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/System.Diagnostics.DiagnosticSource.dll
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/System.Web.Helpers.dll
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/System.Web.Mvc.dll
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/System.Web.Optimization.dll
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/System.Web.Razor.dll
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/System.Web.WebPages.Deployment.dll
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/System.Web.WebPages.dll
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/System.Web.WebPages.Razor.dll
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/WebGrease.dll
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/EntityFramework.xml
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/EntityFramework.SqlServer.xml
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/System.Web.Helpers.xml
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/System.Web.Mvc.xml
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/System.Web.Optimization.xml
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/System.Web.Razor.xml
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/System.Web.WebPages.xml
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/System.Web.WebPages.Deployment.xml
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/System.Web.WebPages.Razor.xml
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/Newtonsoft.Json.xml
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/Antlr3.Runtime.pdb
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/System.Diagnostics.DiagnosticSource.xml
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/Microsoft.AspNet.TelemetryCorrelation.xml
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:/Users/robq9/Desktop/Bostream-bb01c79b0750db0d330f83df7d2221302227d452/BostreamWeb/BostreamWeb/obj/Debug/BostreamWeb.csproj.CopyComplete
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/BostreamWeb.dll
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/BostreamWeb.pdb
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/csc.exe
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/csc.exe.config
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/csc.rsp
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/csi.exe
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/csi.exe.config
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/csi.rsp
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.CodeAnalysis.dll
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.CSharp.Core.targets
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.Managed.Core.targets
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/Microsoft.VisualBasic.Core.targets
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.AppContext.dll
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Collections.Immutable.dll
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Console.dll
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Diagnostics.FileVersionInfo.dll
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Diagnostics.StackTrace.dll
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.IO.Compression.dll
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.IO.FileSystem.dll
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.IO.FileSystem.Primitives.dll
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.IO.Pipes.AccessControl.dll
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.IO.Pipes.dll
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Reflection.Metadata.dll
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Security.AccessControl.dll
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Security.Claims.dll
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Security.Cryptography.Algorithms.dll
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Security.Cryptography.Encoding.dll
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Security.Cryptography.Primitives.dll
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Security.Cryptography.X509Certificates.dll
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Security.Principal.Windows.dll
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Text.Encoding.CodePages.dll
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.ValueTuple.dll
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Xml.ReaderWriter.dll
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Xml.XmlDocument.dll
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Xml.XPath.dll
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/System.Xml.XPath.XDocument.dll
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/vbc.exe
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/vbc.exe.config
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/vbc.rsp
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/VBCSCompiler.exe
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/roslyn/VBCSCompiler.exe.config
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/Antlr3.Runtime.dll
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/EntityFramework.dll
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/EntityFramework.SqlServer.dll
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/Microsoft.AspNet.TelemetryCorrelation.dll
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/Microsoft.Web.Infrastructure.dll
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/Newtonsoft.Json.dll
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/System.Diagnostics.DiagnosticSource.dll
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.Helpers.dll
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.Mvc.dll
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.Optimization.dll
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.Razor.dll
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.WebPages.Deployment.dll
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.WebPages.dll
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.WebPages.Razor.dll
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/WebGrease.dll
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/EntityFramework.xml
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/EntityFramework.SqlServer.xml
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.Helpers.xml
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.Mvc.xml
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.Optimization.xml
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.Razor.xml
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.WebPages.xml
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.WebPages.Deployment.xml
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/System.Web.WebPages.Razor.xml
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/Newtonsoft.Json.xml
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/Antlr3.Runtime.pdb
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/System.Diagnostics.DiagnosticSource.xml
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/Microsoft.AspNet.TelemetryCorrelation.xml
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/obj/Debug/BostreamWeb.csprojAssemblyReference.cache
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/obj/Debug/BostreamWeb.csproj.CoreCompileInputs.cache
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/obj/Debug/BostreamWeb.csproj.CopyComplete
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/obj/Debug/BostreamWeb.dll
+/Users/admin/Desktop/Career/ULACIT/V Cuatrismestre/Analisis de Sistemas/Bostream/Bostream/BostreamWeb/BostreamWeb/obj/Debug/BostreamWeb.pdb

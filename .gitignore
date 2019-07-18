@@ -81,3 +81,11 @@ _[Ss]cripts
 *.ide-shm
 *.ide-wal
 *.xml
+*.ide-wal
+*.xml
+*.dll
+*.pdb
+*.txt
+*.cache
+*.dll
+*.pdb
