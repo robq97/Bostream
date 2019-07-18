@@ -13,5 +13,10 @@ namespace BostreamWeb.Controllers
         {
             return View();
         }
+
+        public ActionResult QuotationList()
+        {
+            return View();
+        }
     }
 }

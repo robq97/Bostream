@@ -89,3 +89,13 @@ _[Ss]cripts
 *.cache
 *.dll
 *.pdb
+BostreamWeb/.vs/BostreamWeb/xs/sqlite3/storage.ide-shm
+*.ide-wal
+*.ide-shm
+*.xml
+BostreamWeb/BostreamWeb/.DS_Store
+*.dll
+*.pdb
+*.cache
+*.dll
+*.pdb

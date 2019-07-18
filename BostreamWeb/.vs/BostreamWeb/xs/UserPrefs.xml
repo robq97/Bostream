@@ -1,23 +1,30 @@
 ﻿<Properties StartupConfiguration="{758A294A-A584-47C5-AC04-247766C524D5}|">
   <MonoDevelop.Ide.ItemProperties.BostreamWeb PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="BostreamWeb/Controllers/QuotationController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BostreamWeb/Models/Person.cs">
     <Files>
-      <File FileName="BostreamWeb/Views/Information/InformationForm.cshtml" Line="53" Column="19" />
+      <File FileName="BostreamWeb/Views/Information/InformationForm.cshtml" Line="87" Column="11" />
       <File FileName="BostreamWeb/Controllers/HomeController.cs" Line="21" Column="2" />
       <File FileName="BostreamWeb/Models/AdminUser.cs" />
       <File FileName="BostreamWeb/Views/Admin/LogIn.cshtml" Line="1" Column="1" />
       <File FileName="BostreamWeb/Controllers/AdminController.cs" Line="1" Column="1" />
-      <File FileName="BostreamWeb/Controllers/QuotationController.cs" Line="1" Column="1" />
+      <File FileName="BostreamWeb/Controllers/QuotationController.cs" Line="22" Column="2" />
+      <File FileName="BostreamWeb/Models/Task.cs" Line="34" Column="36" />
+      <File FileName="BostreamWeb/Models/Customer.cs" Line="42" Column="27" />
+      <File FileName="BostreamWeb/Models/Person.cs" Line="18" Column="22" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="BostreamWeb" expanded="True">
             <Node name="BostreamWeb" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="QuotationController.cs" selected="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="BostreamModel.edmx" expanded="True">
+                  <Node name="BostreamModel.tt" expanded="True">
+                    <Node name="Person.cs" selected="True" />
+                  </Node>
+                </Node>
               </Node>
-              <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Admin" expanded="True" />
                 <Node name="Home" expanded="True" />

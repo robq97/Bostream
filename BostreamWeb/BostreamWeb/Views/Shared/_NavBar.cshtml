@@ -2,21 +2,22 @@
     <div class="nav-wrapper orange darken-4">
         <a> @Html.ActionLink("Bostream", "Index", "Home", new { area = "" }, new { @class = "brand-logo center" })</a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li>@Html.ActionLink("¿Quiénes Somos?", "Index", "Home")</li>
-            <li>@Html.ActionLink("Servicios", "ServiceList", "Service")</li>
-            <li>@Html.ActionLink("Trabajos", "WorkGallery", "Work")</li>
-            <li>@Html.ActionLink("Contáctenos", "InformationForm", "Information")</li>
+            <li class="orange darken-3 active">@Html.ActionLink("¿Quiénes Somos?", "Index", "Home")</li>
+            <li class="orange darken-2 active">@Html.ActionLink("Servicios", "ServiceList", "Service")</li>
+            <li  class="orange darken-1 active">@Html.ActionLink("Trabajos", "WorkGallery", "Work")</li>
+            <li  class="orange active">@Html.ActionLink("Contáctenos", "InformationForm", "Information")</li>
         </ul>
     </div>
-    <div class="nav-wrapper orange darken-4">
-        <a> @Html.ActionLink("Bostream", "Index", "Home", new { area = "" }, new { @class = "brand-logo center" })</a>
+    <div class="nav-wrapper teal darken-1">
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li>@Html.ActionLink("Nuevo Contacto", "NewCustomer", "Customer")</li>
-            <li>@Html.ActionLink("Nueva Tarea", "NewTask", "Task")</li>
-            <li>@Html.ActionLink("Crear Cotización", "NewQuotation", "Quotation")</li>
-            <li>@Html.ActionLink("Mis Contactos", "CustomerView", "Customer")</li>
-            <li>@Html.ActionLink("Cerrar Sesión", "", "")</li>
+            <li class="teal">@Html.ActionLink("Nuevo Contacto", "NewCustomer", "Customer")</li>
+            <li class="teal lighten-1">@Html.ActionLink("Nueva Tarea", "NewTask", "Task")</li>
+            <li class="teal lighten-2">@Html.ActionLink("Crear Cotización", "NewQuotation", "Quotation")</li>
+            <li class="teal lighten-3">@Html.ActionLink("Cotizaciones", "QuotationList", "Quotation")</li>
+            <li class="teal lighten-4">@Html.ActionLink("Mis Contactos", "CustomerView", "Customer")</li>
+            <li class="teal lighten-5">@Html.ActionLink("Cerrar Sesión", "", "")</li>
         </ul>
     </div>
+
 </nav>
 

@@ -16,13 +16,13 @@
         <div class="row">
 
             <div class="input-field input col s2 offset-s1">
-                <input id="QuotationId" type="number" class="white-text" step=".01">
-                <label class="white-text" for="Title">ID de la cotización:</label>
+                <input disabled value="'Reemplazar por ID aquí'" id="disabled" type="number" class="validate white-text">
+                <label class="white-text" for="disabled"></label>
             </div>
 
             <div class="input-field input col s2">
-                <input id="CustomerId" type="number" class="validate white-text">
-                <label class="white-text" for="CustomerId">ID de cliente:</label>
+                <input disabled value="'Reemplazar por ID aquí'" id="disabled" type="number" class="validate white-text">
+                <label class="white-text" for="disabled"></label>
             </div>
 
             <div class="input-field col s3">
@@ -56,6 +56,21 @@
                 </p>
             </div>
 
+        </div>
+
+        <div class="row">
+            <div class="input-field input col s3 offset-s2">
+                <input id="CreationDate" type="text" class="datepicker validate white-text">
+                <label class="white-text" for="Priority">Creación de cotización:</label>
+            </div>
+            <div class="input-field input col s3">
+                <input id="ExpirationDate" type="text" class="datepicker validate white-text">
+                <label class="white-text" for="Priority">Expiración de cotización:</label>
+            </div>
+            <div class="input-field input col s2">
+                <input id="Total" type="number" class="validate white-text">
+                <label class="white-text" for="Total">Precio total:</label>
+            </div>
         </div>
 
         <div class="center" style="margin-bottom: 5%">
