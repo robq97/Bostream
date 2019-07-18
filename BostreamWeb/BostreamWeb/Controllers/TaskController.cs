@@ -36,6 +36,12 @@ namespace Bostream.Controllers
             }).ToList();
             return View(taskViewModelList);
 
+
+
+        }
+        public ActionResult NewTask()
+        {
+            return View();
         }
     }
 }
