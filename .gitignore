@@ -73,3 +73,11 @@ _[Ss]cripts
 *.nupkg
 *.ncrunchsolution
 *.dot[Cc]over
+*.cache
+*.cache
+*.json
+*.ide
+*.ide
+*.ide-shm
+*.ide-wal
+*.xml
