@@ -103,3 +103,9 @@ BostreamWeb/BostreamWeb/.DS_Store
 *.ide-shm
 *.ide
 *.xml
+BostreamWeb/BostreamWeb/bin/BostreamWeb.dll
+BostreamWeb/BostreamWeb/bin/BostreamWeb.dll
+BostreamWeb/BostreamWeb/obj/Debug/BostreamWeb.dll
+BostreamWeb/BostreamWeb/obj/Debug/BostreamWeb.pdb
+BostreamWeb/BostreamWeb/obj/Debug/BostreamWeb.csproj.CoreCompileInputs.cache
+BostreamWeb/.vs/BostreamWeb/xs/UserPrefs.xml
