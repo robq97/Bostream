@@ -416,4 +416,3 @@ C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\obj\Debug\Bostr
 C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\obj\Debug\BostreamWeb.csproj.CopyComplete
 C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\obj\Debug\BostreamWeb.dll
 C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\obj\Debug\BostreamWeb.pdb
-C:\Users\robq9\Documents\GitHub\Bostream\BostreamWeb\BostreamWeb\obj\Debug\BostreamWeb.csprojAssemblyReference.cache
