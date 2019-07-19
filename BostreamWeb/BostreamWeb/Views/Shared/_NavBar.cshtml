@@ -11,14 +11,24 @@
 </nav>
 <nav>
     <div class="nav-wrapper teal darken-1">
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li class="teal">@Html.ActionLink("Nuevo Contacto", "NewCustomer", "Customer")</li>
-            <li class="teal lighten-1">@Html.ActionLink("Nueva Tarea", "NewTask", "Task")</li>
-            <li class="teal lighten-2">@Html.ActionLink("Crear Cotización", "NewQuotation", "Quotation")</li>
-            <li class="teal lighten-3">@Html.ActionLink("Cotizaciones", "QuotationList", "Quotation")</li>
-            <li class="teal lighten-4">@Html.ActionLink("Mis Contactos", "CustomerView", "Customer")</li>
-            <li class="teal lighten-5">@Html.ActionLink("Cerrar Sesión", "", "")</li>
+        <ul id="dropdown-contactos" class="dropdown-content">
+            <li>@Html.ActionLink("Nuevo Contacto", "NewCustomer", "Customer")</a></li>
+            
+            <li>@Html.ActionLink("Mis contactos", "CustomerView", "Customer")</a></li>
+            
+            <li>@Html.ActionLink("Nueva Tarea", "NewTask", "Task")</a></li>
         </ul>
+        <ul id="dropdown-cotizaciones" class="dropdown-content">
+            <li>@Html.ActionLink("Crear Cotización", "NewQuotation", "Quotation")</a></li>
+            <li>@Html.ActionLink("Cotizaciones", "QuotationList", "Quotation")</a></li>
+        </ul>
+        <div class="nav-wrapper teal">
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a class="teal lighten-1 dropdown-trigger" href="#!" data-target="dropdown-contactos">Contactos<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a class="teal lighten-2 dropdown-trigger" href="#!" data-target="dropdown-cotizaciones">Cotizaciones<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li class="teal lighten-3">@Html.ActionLink("Cerrar Sesión", "", "")</li>
+            </ul>
+        </div>
     </div>
 </nav>
 
