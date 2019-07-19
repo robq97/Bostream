@@ -4,21 +4,23 @@
 }
 <h5>@ViewBag.Title</h5>
 
-<div class="container lighten-5 col m6 z-depth-3 center" style="margin-top: 20%; margin-bottom: 30%">
+<div class="container lighten-5 col m6 z-depth-3 center" style="margin-top: 10%; margin-bottom: 10%">
     <div id="login-div">
         @using (Html.BeginForm("Authentication", "Admin", FormMethod.Post))
         {
-            <form class="col s6">
+        <div class="teal">
+            <form class="col s4">
                 <div class="container center">
-                    <div class="input-field col s7">
-                        <input id="Username" name="username" type="text" class="validate">
-                        <label for="Username">ID</label>
+                    <br>
+                    <div class="white-text input-field col s7">
+                        <input id="Username" name="username" type="text" class="center teal-text text-accent-1 validate">
+                        <label class="white-text" for="Username">ID</label>
                     </div>
                 </div>
                 <div class="container center">
                     <div class="input-field col s7">
-                        <input id="Password" name="password" type="password" class="validate">
-                        <label for="Password">Password</label>
+                        <input id="Password" name="password" type="password" class="center teal-text text-accent-1 validate">
+                        <label class="white-text" for="Password">Password</label>
                     </div>
                 </div>
                 <div class="center" style="margin-bottom: 5%">
@@ -28,6 +30,7 @@
                     </button>
                 </div>
             </form>
-        }
+        </div>
+        }   
     </div>
 </div>
