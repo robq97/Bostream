@@ -20,14 +20,16 @@ public partial class Admin
 
     public int AdminId { get; set; }
 
-    public string Password { get; set; }
-
     public int PersonId { get; set; }
 
-        public string Username { get; set; }
+    public string username { get; set; }
 
-        public virtual Person Person { get; set; }
-        public string LoginErrorMessage { get; internal set; }
-    }
+    public string password { get; set; }
+
+
+
+    public virtual Person Person { get; set; }
+
+}
 
 }

@@ -5,9 +5,10 @@
       <PropertyRef Name="AdminId" />
     </Key>
     <Property Name="AdminId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="Password" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
     <Property Name="PersonId" Type="Int32" Nullable="false" />
     <NavigationProperty Name="Person" Relationship="Self.FK_Admin_Person" FromRole="Admin" ToRole="Person" />
+    <Property Name="username" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="password" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="true" />
   </EntityType>
   <EntityType Name="Client">
     <Key>

@@ -149,7 +149,7 @@
     <Compile Include="Models\Admin.cs">
       <DependentUpon>BostreamModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\AdminUser.cs" />
+    <Compile Include="Models\AdminViewModel.cs" />
     <Compile Include="Models\BostreamModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

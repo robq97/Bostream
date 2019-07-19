@@ -24,8 +24,6 @@ public partial class Quotation
 
     public int ServiceID { get; set; }
 
-    public decimal Total { get; set; }
-
     public System.DateTime CreationDate { get; set; }
 
     public System.DateTime ExpirationDate { get; set; }

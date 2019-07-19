@@ -4,8 +4,9 @@
     <EntitySetMapping Name="Admins">
       <EntityTypeMapping TypeName="BostreamModel.Admin">
         <MappingFragment StoreEntitySet="Admin">
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="username" ColumnName="username" />
           <ScalarProperty Name="AdminId" ColumnName="AdminId" />
-          <ScalarProperty Name="Password" ColumnName="Password" />
           <ScalarProperty Name="PersonId" ColumnName="PersonId" />
         </MappingFragment>
       </EntityTypeMapping>

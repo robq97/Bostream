@@ -5,8 +5,9 @@
       <PropertyRef Name="AdminId" />
     </Key>
     <Property Name="AdminId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="Password" Type="nvarchar(max)" Nullable="false" />
     <Property Name="PersonId" Type="int" Nullable="false" />
+    <Property Name="username" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="password" Type="nvarchar" MaxLength="30" Nullable="false" />
   </EntityType>
   <EntityType Name="Client">
     <Key>

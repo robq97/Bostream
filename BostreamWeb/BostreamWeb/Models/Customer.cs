@@ -39,7 +39,9 @@ public partial class Customer
 
     public int PersonID { get; set; }
 
-        public virtual Person Person { get; set; }
+
+
+    public virtual Person Person { get; set; }
 
     public virtual Task Task { get; set; }
 
