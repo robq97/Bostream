@@ -15,8 +15,10 @@
 </head>
 <body>
     <main>
-        @Html.Partial("_NavBar")
-        <div class="container body-content">
+        <div>
+            @Html.Partial("_NavBar")
+        </div>
+        <div>
             @RenderBody()
         </div>
         <hr />

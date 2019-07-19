@@ -210,6 +210,12 @@
       <DependentUpon>BostreamModel.edmx</DependentUpon>
       <LastGenOutput>BostreamModel.cs</LastGenOutput>
     </Content>
+    <Content Include="Public\img\background1small.jpg" />
+    <Content Include="Public\img\background2Index.jpg" />
+    <Content Include="Public\img\background2small.jpg" />
+    <Content Include="Public\img\background3.jpg" />
+    <Content Include="Public\img\background3small.jpg" />
+    <Content Include="Public\img\background4small.jpg" />
     <Content Include="Public\img\backgroundIndex.jpg" />
     <Content Include="Public\img\ej1.PNG" />
     <Content Include="Public\img\ej2.PNG" />
@@ -271,6 +277,7 @@
     <Content Include="Views\Customer\NewCustomer.cshtml" />
     <Content Include="Views\Task\NewTask.cshtml" />
     <Content Include="Views\Task\TaskList.cshtml" />
+    <Content Include="Views\Quotation\QuotationList.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

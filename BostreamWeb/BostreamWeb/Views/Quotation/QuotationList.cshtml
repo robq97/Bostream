@@ -1,43 +1,42 @@
 @{
     ViewBag.Title = "Mis cotizaciones";
 }
-<h2>@ViewBag.Title</h2>
-<h3>@ViewBag.Message</h3>
+<h3 class="center">@ViewBag.Title.</h3>
+<div class="container body-content">
+    <div class="row">
+        <div>
+            <table class="responsive-table centered">
+                <thead>
+                    <tr>
+                        <th>ID Cliente</th>
+                        <th>Nombre</th>
+                        <th>Apellido</th> <!--atributo de Person: LastName-->
+                        <th>E-mail</th>
+                        <th>Empresa</th>
+                        <th>Teléfono</th>
+                        <th>Fecha creación</th>
+                        <th>Fecha vencimiento</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
 
+                <!--aquí se insertan los datos de cada cotizacón-->
+                <tbody>
+                    <tr>
+                        <td>0001</td>
+                        <td>Andrés</td>
+                        <td>Pereira</td>
+                        <td>apereiraa768@ulacit.ed.cr</td>
+                        <td>ULACIT</td>
+                        <td>22222222</td>
+                        <td>ayer</td>
+                        <td>mañana</td>
+                        <td>69420</td>
+                    </tr>
 
-<div class="row">
-    <div>
-        <table class="responsive-table centered">
-            <thead>
-                <tr>
-                    <th>ID Cliente</th>
-                    <th>Nombre</th>
-                    <th>Apellido</th> <!--atributo de Person: LastName-->
-                    <th>E-mail</th>
-                    <th>Empresa</th>
-                    <th>Teléfono</th>
-                    <th>Fecha creación</th>
-                    <th>Fecha vencimiento</th>
-                    <th>Precio</th>
-                </tr>
-            </thead>
+                </tbody>
 
-            <!--aquí se insertan los datos de cada cotizacón-->
-            <tbody>
-                <tr>
-                    <td>0001</td>
-                    <td>Andrés</td>
-                    <td>Pereira</td>
-                    <td>apereiraa768@ulacit.ed.cr</td>
-                    <td>ULACIT</td>
-                    <td>22222222</td>
-                    <td>ayer</td>
-                    <td>mañana</td>
-                    <td>69420</td>
-                </tr>
-
-        </tbody>
-
-        </table>
+            </table>
+        </div>
     </div>
 </div>

@@ -1,39 +1,40 @@
 ﻿
 @model IEnumerable<BostreamWeb.Models.CustomerViewModel>
 @{
-    ViewBag.Title = "Prueba de customers";
+    ViewBag.Title = "Mis Contactos";
 }
-<h4 class="header">Mis Contactos</h4>
-    @if (Model != null)
-    {
-        <table class="centered highlight" style="margin-top:5%;">
-            <thead class="z-depth-1">
-                <tr class="">
-                    <th>ID</th>
-                    <th>Nombre</th>
-                    <th>Email</th>
-                    <th>Empresa</th>
-                    <th>Tel/Cel</th>
-                    <th>Notas</th>
-                    <th>Tareas</th>
-                    <th>Cotizaciones</th>
-                </tr>
-            </thead>
-            <tbody>
+<h3 class="center">@ViewBag.Title.</h3>
 
-                @foreach (var item in Model)
-                {
-                    <tr>
-                        <td>@item.CustomerID</td>
-                        <td>@item.PersonID</td>
-                        <td>@item.PersonID</td>
-                        <td>@item.CompanyName</td>
-                        <td>@item.Phone</td>
-                        <td>@item.Note</td>
-                        <td>@item.Task</td>
-                        <td>@item.Quotations.GetHashCode()</td>
-                    </tr>
-                }
-            </tbody>
-        </table>
+@if (Model != null)
+{<div class="container body-content">
+    <table class="centered highlight" style="margin-top:5%;">
+        <thead class="z-depth-1">
+            <tr class="">
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Email</th>
+                <th>Empresa</th>
+                <th>Tel/Cel</th>
+                <th>Notas</th>
+                <th>Tareas</th>
+                <th>Cotizaciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.CustomerID</td>
+                    <td>@item.PersonID</td>
+                    <td>@item.PersonID</td>
+                    <td>@item.CompanyName</td>
+                    <td>@item.Phone</td>
+                    <td>@item.Note</td>
+                    <td>@item.Task</td>
+                    <td>@item.Quotations.GetHashCode()</td>
+                </tr>
             }
+        </tbody>
+    </table>
+</div>
+}
