@@ -12,8 +12,11 @@ namespace BostreamWeb.Models
         public int Phone { get; set; }
         public string Note { get; set; }
         public Task Task { get; set; }
-        public int TaskID { get; set; }
+        public Nullable<int> TaskID { get; set; }
+        public string TaskTitle { get; set; }
+        public int QuotationID { get; set; }
         public int PersonID { get; set; }
         public virtual ICollection<Quotation> Quotations { get; set; }
+
     }
 }

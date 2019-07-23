@@ -21,13 +21,14 @@ namespace BostreamWeb.Controllers
             //de esta manera, en caso de que se hagan cambios en customers, no se afecta el view
             CustomerViewModel customerViewModel = new CustomerViewModel();
 
-            List<CustomerViewModel> customerViewModelList = customerList.Select(x => new CustomerViewModel
+            List <CustomerViewModel> customerViewModelList = customerList.Select(x => new CustomerViewModel
             {
                 CustomerID = x.CustomerID,
                 CompanyName = x.CompanyName,
                 Phone = x.Phone,
                 Note = x.Note,
-                Task =  x.Task,
+                TaskID = x.TaskID,
+                //TaskTitle =  x.Task.Title,
                 PersonID = x.PersonID,
                 Quotations = x.Quotations
             }).ToList();

@@ -6,7 +6,6 @@
     <edmx:Diagrams>
       <Diagram DiagramId="87bda889c6a242389494952fcc593dd5" Name="Diagram1">
         <EntityTypeShape EntityType="BostreamModel.Admin" Width="1.5" PointX="3" PointY="4.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="BostreamModel.Client" Width="1.5" PointX="5.75" PointY="4.125" IsExpanded="true" />
         <EntityTypeShape EntityType="BostreamModel.Customer" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="BostreamModel.Newsletter" Width="1.5" PointX="5.75" PointY="7.125" IsExpanded="true" />
         <EntityTypeShape EntityType="BostreamModel.Person" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
@@ -19,6 +18,7 @@
         <AssociationConnector Association="BostreamModel.FK_Customer_Task" ManuallyRouted="false" />
         <AssociationConnector Association="BostreamModel.FK_Quotation_Customer" ManuallyRouted="false" />
         <AssociationConnector Association="BostreamModel.FK_Quotation_Service" ManuallyRouted="false" />
+        <AssociationConnector Association="BostreamModel.FK_Customer_Quotation" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

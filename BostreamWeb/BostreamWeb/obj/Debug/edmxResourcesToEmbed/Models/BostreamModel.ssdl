@@ -9,16 +9,6 @@
     <Property Name="username" Type="nvarchar" MaxLength="30" Nullable="false" />
     <Property Name="password" Type="nvarchar" MaxLength="30" Nullable="false" />
   </EntityType>
-  <EntityType Name="Client">
-    <Key>
-      <PropertyRef Name="ClientId" />
-    </Key>
-    <Property Name="ClientId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="Company" Type="nvarchar(max)" Nullable="false" />
-    <Property Name="PhoneNumber" Type="int" Nullable="false" />
-    <Property Name="Note" Type="nvarchar(max)" Nullable="false" />
-    <Property Name="PersonId" Type="int" Nullable="false" />
-  </EntityType>
   <EntityType Name="Customer">
     <Key>
       <PropertyRef Name="CustomerID" />
@@ -29,6 +19,7 @@
     <Property Name="Note" Type="nvarchar" MaxLength="300" />
     <Property Name="TaskID" Type="int" />
     <Property Name="PersonID" Type="int" Nullable="false" />
+    <Property Name="QuotationID" Type="int" />
   </EntityType>
   <EntityType Name="Newsletter">
     <Key>
@@ -109,7 +100,19 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <Association Name="FK_Customer_Task">
+  <Association Name="FK_Customer_Quotation">
+    <End Role="Quotation" Type="Self.Quotation" Multiplicity="0..1" />
+    <End Role="Customer" Type="Self.Customer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Quotation">
+        <PropertyRef Name="QuotationID" />
+      </Principal>
+      <Dependent Role="Customer">
+        <PropertyRef Name="QuotationID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Customer_Task1">
     <End Role="Task" Type="Self.Task" Multiplicity="0..1" />
     <End Role="Customer" Type="Self.Customer" Multiplicity="*" />
     <ReferentialConstraint>
@@ -118,18 +121,6 @@
       </Principal>
       <Dependent Role="Customer">
         <PropertyRef Name="TaskID" />
-      </Dependent>
-    </ReferentialConstraint>
-  </Association>
-  <Association Name="FK_Quotation_Customer">
-    <End Role="Customer" Type="Self.Customer" Multiplicity="1" />
-    <End Role="Quotation" Type="Self.Quotation" Multiplicity="*" />
-    <ReferentialConstraint>
-      <Principal Role="Customer">
-        <PropertyRef Name="CustomerID" />
-      </Principal>
-      <Dependent Role="Quotation">
-        <PropertyRef Name="CustomerID" />
       </Dependent>
     </ReferentialConstraint>
   </Association>
@@ -147,7 +138,6 @@
   </Association>
   <EntityContainer Name="BostreamModelStoreContainer">
     <EntitySet Name="Admin" EntityType="Self.Admin" Schema="dbo" store:Type="Tables" />
-    <EntitySet Name="Client" EntityType="Self.Client" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Customer" EntityType="Self.Customer" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Newsletter" EntityType="Self.Newsletter" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Person" EntityType="Self.Person" Schema="dbo" store:Type="Tables" />
@@ -163,13 +153,13 @@
       <End Role="Person" EntitySet="Person" />
       <End Role="Customer" EntitySet="Customer" />
     </AssociationSet>
-    <AssociationSet Name="FK_Customer_Task" Association="Self.FK_Customer_Task">
-      <End Role="Task" EntitySet="Task" />
+    <AssociationSet Name="FK_Customer_Quotation" Association="Self.FK_Customer_Quotation">
+      <End Role="Quotation" EntitySet="Quotation" />
       <End Role="Customer" EntitySet="Customer" />
     </AssociationSet>
-    <AssociationSet Name="FK_Quotation_Customer" Association="Self.FK_Quotation_Customer">
+    <AssociationSet Name="FK_Customer_Task1" Association="Self.FK_Customer_Task1">
+      <End Role="Task" EntitySet="Task" />
       <End Role="Customer" EntitySet="Customer" />
-      <End Role="Quotation" EntitySet="Quotation" />
     </AssociationSet>
     <AssociationSet Name="FK_Quotation_Service" Association="Self.FK_Quotation_Service">
       <End Role="Service" EntitySet="Service" />
