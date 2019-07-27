@@ -11,20 +11,10 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="Clients">
-      <EntityTypeMapping TypeName="BostreamModel.Client">
-        <MappingFragment StoreEntitySet="Client">
-          <ScalarProperty Name="ClientId" ColumnName="ClientId" />
-          <ScalarProperty Name="Company" ColumnName="Company" />
-          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
-          <ScalarProperty Name="Note" ColumnName="Note" />
-          <ScalarProperty Name="PersonId" ColumnName="PersonId" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
     <EntitySetMapping Name="Customers">
       <EntityTypeMapping TypeName="BostreamModel.Customer">
         <MappingFragment StoreEntitySet="Customer">
+          <ScalarProperty Name="QuotationID" ColumnName="QuotationID" />
           <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
           <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
           <ScalarProperty Name="Phone" ColumnName="Phone" />

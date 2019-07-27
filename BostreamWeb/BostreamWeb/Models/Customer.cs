@@ -39,6 +39,8 @@ public partial class Customer
 
     public int PersonID { get; set; }
 
+    public Nullable<int> QuotationID { get; set; }
+
 
 
     public virtual Person Person { get; set; }
@@ -48,6 +50,8 @@ public partial class Customer
     [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
 
     public virtual ICollection<Quotation> Quotations { get; set; }
+
+    public virtual Quotation Quotation { get; set; }
 
 }
 

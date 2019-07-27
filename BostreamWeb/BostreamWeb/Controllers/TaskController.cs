@@ -27,8 +27,8 @@ namespace Bostream.Controllers
 
             List<TaskViewModel> taskViewModelList = taskList.Select(x => new TaskViewModel
             {
-                TaskId = x.TaskId,
-                Title = x.Title,
+                //TaskId = x.TaskId,
+                Task = x.Title,
                 Deadline = x.Deadline,
                 Description = x.Description,
                 Priority = x.Priority,

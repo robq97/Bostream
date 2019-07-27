@@ -18,6 +18,15 @@ using System;
 public partial class Quotation
 {
 
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+    public Quotation()
+    {
+
+        this.Customers = new HashSet<Customer>();
+
+    }
+
+
     public int QuotationID { get; set; }
 
     public int CustomerID { get; set; }
@@ -33,6 +42,10 @@ public partial class Quotation
     public virtual Customer Customer { get; set; }
 
     public virtual Service Service { get; set; }
+
+    [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+
+    public virtual ICollection<Customer> Customers { get; set; }
 
 }
 

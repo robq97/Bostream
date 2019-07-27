@@ -34,8 +34,6 @@ public partial class BostreamEntities1 : DbContext
 
     public virtual DbSet<Admin> Admins { get; set; }
 
-    public virtual DbSet<Client> Clients { get; set; }
-
     public virtual DbSet<Customer> Customers { get; set; }
 
     public virtual DbSet<Newsletter> Newsletters { get; set; }

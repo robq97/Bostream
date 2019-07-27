@@ -11,89 +11,85 @@
 <!---->
 <div class="container body-content">
     <div class="row">
-        <form class="col s12 hoverable grey darken-1 z-depth-3">
+        @using (Html.BeginForm("SendEmail", "Information", FormMethod.Post, new { @class = "col s12 hoverable grey darken-1 z-depth-3" }))
+        {
             <div class="col s12 card-panel center">
                 <h6 style="margin-bottom: 2%;">Para más información:</h6>
             </div>
-            <div class="row">
-                <div class="input-field input col s3 offset-s1">
-                    <input id="FirstName" type="text" class="validate white-text">
-                    <label class="white-text" for="FirstName">Nombre:</label>
-                </div>
-                <div class="input-field col s3">
-                    <input id="LastName" type="text" class="validate white-text">
-                    <label class="white-text" for="LastName">Apellido:</label>
-                </div>
-                <div class="input-field col s4">
-                    <input id="Company" type="text" class="validate white-text">
-                    <label class="white-text" for="Company">Organización/compañía:</label>
+            <div class="input-field input col s3 offset-s1">
+                <input id="FirstName" data-length="10" type="text" name="name" class="validate white-text .left-alert" required="">
+                <label class="white-text" for="FirstName">Nombre:</label>
+            </div>
+            <div class="input-field col s3">
+                <input id="LastName" type="text" name="lastName" class="validate white-text .left-alert" required="">
+                <label class="white-text" for="LastName">Apellido:</label>
+            </div>
+            <div class="input-field col s4">
+                <input id="Company" type="text" name="company" class="validate white-text .left-alert" required="">
+                <label class="white-text" for="Company">Organización/compañía:</label>
+            </div>
+            <div class="input-field col s6 offset-s1">
+                <input id="Email" type="email" name="receiver" class="validate white-text .left-alert" required="">
+                <label class="white-text" for="Email">Correo electrónico:</label>
+            </div>
+            <div class="input-field col s4 white-text">
+                <input id="PhoneNum" type="tel" data-length="8" name="phone" pattern="[0-9]{4}[0-9]{4}" class="validate white-text .left-alert" required="">
+                <label class="white-text" for="PhoneNum">Número de teléfono:</label>
+            </div>
+            <div class="input-field col s5 offset-s2">
+                <div class="container offset-s1">
+                    <p>
+                        <label>
+                            <input id="SocialNetwork" name="service1" type="checkbox" class="filled-in" />
+                            <span class="white-text ">Manejo de redes sociales</span>
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <input id="ContentCreation" name="service2" type="checkbox" class="filled-in" />
+                            <span class="white-text ">Creación de contenido</span>
+                        </label>
+                    </p>
                 </div>
             </div>
+            <div class="input-field col s5">
+                <p>
+                    <label>
+                        <input id="GraphicDesign" name="service3" type="checkbox" class="filled-in" />
+                        <span class="white-text ">Diseño gráfico</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input id="Other" name="service4" type="checkbox" class="filled-in" />
+                        <span class="white-text ">Otro</span>
+                    </label>
+                </p>
+            </div>
             <div class="row">
-                <div class="input-field col s6 offset-s1">
-                    <input id="Email" type="email" class="validate white-text">
-                    <label class="white-text" for="Email">Correo electrónico:</label>
+                <div class="input-field col s5 offset-s1">
+                    <textarea id="Notes" type="text" name="message" class="materialize-textarea white-text"></textarea>
+                    <label class="white-text" for="Notes">Comentarios adicionales:</label>
                 </div>
-                <div class="input-field col s4">
-                    <input id="PhoneNum" type="tel" class="validate white-text">
-                    <label class="white-text" for="PhoneNum">Número de teléfono:</label>
-                </div>
-                <div class="input-field col s5 offset-s2">
-                    <div class="container offset-s1">
-                        <p>
-                            <label>
-                                <input id="SocialNetwork" type="checkbox" class="filled-in" />
-                                <span class="white-text ">Manejo de redes sociales</span>
-                            </label>
-                        </p>
-                        <p>
-                            <label>
-                                <input id="ContentCreation" type="checkbox" class="filled-in" />
-                                <span class="white-text ">Creación de contenido</span>
-                            </label>
-                        </p>
-                    </div>
-                </div>
-                <div class="input-field col s5">
+                <div class="input-field col s3 offset-s1">
                     <p>
                         <label>
-                            <input id="GraphicDesign" type="checkbox" class="filled-in" />
-                            <span class="white-text ">Diseño gráfico</span>
+                            <input id="Newsletter" name="subscribe" type="checkbox" class="filled-in" />
+                            <span class="white-text ">Suscribirme a boletín</span>
                         </label>
                     </p>
-                    <p>
-                        <label>
-                            <input id="Other" type="checkbox" class="filled-in" />
-                            <span class="white-text ">Otro</span>
-                        </label>
-                    </p>
-                </div>
-                <div class="row">
-                    <div class="input-field col s5 offset-s1">
-                        <textarea id="Notes" type="text" class="materialize-textarea white-text"></textarea>
-                        <label class="white-text" for="Notes">Comentarios adicionales:</label>
-                    </div>
-                    <div class="input-field col s3 offset-s1">
-                        <p>
-                            <label>
-                                <input id="Newsletter" type="checkbox" class="filled-in" />
-                                <span class="white-text ">Suscribirme a boletín</span>
-                            </label>
-                        </p>
-                    </div>
                 </div>
             </div>
             <div class="center" style="margin-bottom: 5%">
-                <button class="btn waves-effect waves-light orange darken-4" type="submit" name="action">
+                <button class="btn waves-effect waves-light orange darken-4 validate" type="submit" name="action">
                     Enviar
                     <i class="material-icons right">send</i>
                 </button>
             </div>
-        </form>
+        }
     </div>
 </div>
-    <br>
-
-    <address>
-        <strong>Email:</strong>   <a href="mailto:bostream.mercadeo@gmail.com">bostream.mercadeo@gmail.com</a><br />
-    </address>
+<br>
+<address>
+    <strong>Email:</strong>   <a href="mailto:bostream.mercadeo@gmail.com">bostream.mercadeo@gmail.com</a><br />
+</address>
