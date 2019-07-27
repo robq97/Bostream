@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\BostreamWeb",
+    "\\BostreamWeb\\BostreamWeb",
+    "\\BostreamWeb\\BostreamWeb.Tests"
   ],
+  "SelectedNode": "\\BostreamWeb\\BostreamWeb.sln",
   "PreviewInSolutionExplorer": false
 }
