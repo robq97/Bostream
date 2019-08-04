@@ -1,42 +1,37 @@
-﻿@{
+﻿@model IEnumerable<BostreamWeb.Models.QuotationViewModel>
+@{
     ViewBag.Title = "Mis cotizaciones";
 }
 <h3 class="center">@ViewBag.Title.</h3>
+
+@if (Model != null)
+{
 <div class="container body-content">
-    <div class="row">
-        <div>
-            <table class="responsive-table centered">
-                <thead>
-                    <tr>
-                        <th>ID Cliente</th>
-                        <th>Nombre</th>
-                        <th>Apellido</th> <!--atributo de Person: LastName-->
-                        <th>E-mail</th>
-                        <th>Empresa</th>
-                        <th>Teléfono</th>
-                        <th>Fecha creación</th>
-                        <th>Fecha vencimiento</th>
-                        <th>Precio</th>
-                    </tr>
-                </thead>
-
-                <!--aquí se insertan los datos de cada cotizacón-->
-                <tbody>
-                    <tr>
-                        <td>0001</td>
-                        <td>Sebastian</td>
-                        <td>Sior</td>
-                        <td>pollofritoybasquet@ulacit.ed.cr</td>
-                        <td>ULACIT</td>
-                        <td>12341234</td>
-                        <td>ayer</td>
-                        <td>mañana</td>
-                        <td>69420</td>
-                    </tr>
-
-                </tbody>
-
-            </table>
-        </div>
-    </div>
+    <table class="centered highlight" style="margin-top:5%;">
+        <thead class="z-depth-1">
+            <tr>
+                <th>ID Cliente</th>
+                <th>Nombre</th>
+                <th>Servicio</th>
+                <th>Fecha creación</th>
+                <th>Fecha vencimiento</th>
+                <th>Precio ($)</th>
+            </tr>
+        </thead>
+        <!--aquí se insertan los datos de cada cotizacón-->
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.CustomerID</td>
+                    <td>@item.Name</td>
+                    <td>@item.QuotationService</td>
+                    <td>@item.CreationDate</td>
+                    <td>@item.ExpirationDate</td>
+                    <td>@item.Price</td>
+                </tr>
+            }
+        </tbody>
+    </table>
 </div>
+}
