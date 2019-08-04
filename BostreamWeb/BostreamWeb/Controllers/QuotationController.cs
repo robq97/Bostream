@@ -23,8 +23,7 @@ namespace BostreamWeb.Controllers
 
             var list = (from c in db.Customers
                         join q in db.Quotations
-                             on c.CustomerID equals q.CustomerID into lfq
-                        from q in lfq.DefaultIfEmpty()
+                             on c.CustomerID equals q.CustomerID
                         join p in db.People
                              on c.PersonID equals p.PersonId
                         join s in db.Services
