@@ -179,6 +179,7 @@
     <Compile Include="Models\Quotation.cs">
       <DependentUpon>BostreamModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\QuotationViewModel.cs" />
     <Compile Include="Models\Service.cs">
       <DependentUpon>BostreamModel.tt</DependentUpon>
     </Compile>

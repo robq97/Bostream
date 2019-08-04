@@ -57,6 +57,7 @@
     <NavigationProperty Name="Customer" Relationship="Self.FK_Quotation_Customer" FromRole="Quotation" ToRole="Customer" />
     <NavigationProperty Name="Service" Relationship="Self.FK_Quotation_Service" FromRole="Quotation" ToRole="Service" />
     <NavigationProperty Name="Customers" Relationship="BostreamModel.FK_Customer_Quotation" FromRole="Quotation" ToRole="Customer" />
+    <Property Name="Price" Type="Int32" />
   </EntityType>
   <EntityType Name="Service">
     <Key>

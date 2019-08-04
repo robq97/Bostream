@@ -37,6 +37,8 @@ public partial class Quotation
 
     public System.DateTime ExpirationDate { get; set; }
 
+    public Nullable<int> Price { get; set; }
+
 
 
     public virtual Customer Customer { get; set; }

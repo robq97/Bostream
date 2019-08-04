@@ -25,13 +25,16 @@
             {
                 <tr>
                     <td>@item.CustomerID</td>
-                    <td>@item.PersonID</td>
-                    <td>@item.PersonID</td>
+                    <td>@item.Name</td>
+                    <td>@item.Email</td>
                     <td>@item.CompanyName</td>
                     <td>@item.Phone</td>
                     <td>@item.Note</td>
-                    <td>@*@item.Task.Title*@</td>
-                    <td>@item.Quotations.GetHashCode()</td>
+                    <td><b>Titulo:</b> @item.TaskTitle <br><b>Descripción:</b> @item.TaskDesc</td>
+                    <td>
+                        <b>Servicio:</b> @item.QuotationService <br><b>Creación:</b> @item.QuotationCreationDate
+                        <br><b>Límite:</b> @item.QuotationEndDate <br><b>Precio ($):</b> @item.QuotationPrice
+                    </td>
                 </tr>
             }
         </tbody>

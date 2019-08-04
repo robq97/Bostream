@@ -47,6 +47,7 @@
     <Property Name="ServiceID" Type="int" Nullable="false" />
     <Property Name="CreationDate" Type="datetime" Nullable="false" />
     <Property Name="ExpirationDate" Type="datetime" Nullable="false" />
+    <Property Name="Price" Type="int" />
   </EntityType>
   <EntityType Name="Service">
     <Key>

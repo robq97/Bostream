@@ -46,6 +46,7 @@
     <EntitySetMapping Name="Quotations">
       <EntityTypeMapping TypeName="BostreamModel.Quotation">
         <MappingFragment StoreEntitySet="Quotation">
+          <ScalarProperty Name="Price" ColumnName="Price" />
           <ScalarProperty Name="QuotationID" ColumnName="QuotationID" />
           <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
           <ScalarProperty Name="ServiceID" ColumnName="ServiceID" />
