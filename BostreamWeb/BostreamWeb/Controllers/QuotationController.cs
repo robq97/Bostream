@@ -15,6 +15,19 @@ namespace BostreamWeb.Controllers
             return View();
         }
 
+        [HttpPost]
+        public ActionResult AddQuotation([Bind (Include = "QuotationID, CustomerID, ServiceID, CreationDate, ExpirationDate, Price")] Quotation _NewQuotation)
+        {
+            if (ModelState.IsValid)
+            {
+                BostreamEntities1 db = new BostreamEntities1();
+                db.Quotations.Add(_NewQuotation);
+                db.SaveChanges();
+                return RedirectToAction("CustomerView");
+            }
+            return View(_NewQuotation);
+        }
+
         public ActionResult QuotationList()
         {
             BostreamEntities1 db = new BostreamEntities1();

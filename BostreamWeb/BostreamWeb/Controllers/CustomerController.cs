@@ -43,7 +43,7 @@ namespace BostreamWeb.Controllers
             CustomerViewModel customerViewModel = new CustomerViewModel();
 
             var list = (from c in db.Customers
-                        join t in db.Tasks
+                        join t in db.Task
                             on c.CustomerID equals t.CustomerID into ljt
                         from t in ljt.DefaultIfEmpty()
                         join p in db.People
@@ -79,5 +79,17 @@ namespace BostreamWeb.Controllers
             return View();
         }
 
+        public ActionResult AddNewCustomer([Bind (Include = "CustomerID, CompanyName, Phone," +
+            "Note, TaskID, PersonID, QuotationID")] Customer _newCustomer)
+        {
+            if (ModelState.IsValid)
+            {
+                BostreamEntities1 db = new BostreamEntities1();
+                db.Customers.Add(_newCustomer);
+                db.SaveChanges();
+                return RedirectToAction("CustomerView");
+            }
+            return View(_newCustomer);
+        }
     }
 }

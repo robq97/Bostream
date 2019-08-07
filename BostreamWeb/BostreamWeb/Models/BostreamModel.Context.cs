@@ -46,7 +46,7 @@ public partial class BostreamEntities1 : DbContext
 
     public virtual DbSet<sysdiagram> sysdiagrams { get; set; }
 
-    public virtual DbSet<Task> Tasks { get; set; }
+    public virtual DbSet<Task> Task { get; set; }
 
 }
 

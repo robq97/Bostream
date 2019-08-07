@@ -51,7 +51,7 @@ namespace Bostream.Controllers
             if (ModelState.IsValid)
             {
                 BostreamEntities1 db = new BostreamEntities1();
-                List<Admin> adminList = db.Admins.ToList();
+                    List<Admin> adminList = db.Admins.ToList();
 
                 var user = (from userlist in adminList
                             where userlist.username == login.username && userlist.password == login.password
