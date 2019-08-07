@@ -276,6 +276,7 @@
     <Content Include="Views\Task\NewTask.cshtml" />
     <Content Include="Views\Task\TaskList.cshtml" />
     <Content Include="Views\Quotation\QuotationList.cshtml" />
+    <Content Include="Views\Admin\Denied.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

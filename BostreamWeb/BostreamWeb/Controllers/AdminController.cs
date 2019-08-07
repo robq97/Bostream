@@ -38,6 +38,10 @@ namespace Bostream.Controllers
             return RedirectToAction("Index", "Home");
         }
 
+        public ActionResult Denied()
+        {
+            return View();
+        }
 
         /// <summary>
         /// Metodo para la autenticacion de administradores.
