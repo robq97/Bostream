@@ -12,18 +12,8 @@ namespace BostreamWeb.Tests.Controllers
     [TestClass]
     class TaskControllerTest
     {
-        [TestMethod]
-        public void TaskList()
-        {
-            // Arrange
-            TaskController controller = new TaskController();
 
-            // Act
-            ViewResult result = controller.TaskList() as ViewResult;
-
-            // Assert
-            Assert.IsNotNull(result);
-        }
+      
         public void NewTask()
         {
             // Arrange

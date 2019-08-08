@@ -72,7 +72,7 @@ namespace Bostream.Controllers
                 }
                 else
                 {
-                    return RedirectToAction("LogIn", "Admin");
+                    return RedirectToAction("Denied", "Admin");
                 }
 
             }

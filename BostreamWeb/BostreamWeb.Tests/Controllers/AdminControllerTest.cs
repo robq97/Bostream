@@ -6,6 +6,7 @@ using System.Web.Mvc;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using BostreamWeb;
 using Bostream.Controllers;
+using BostreamWeb.Models;
 
 namespace BostreamWeb.Tests.Controllers
 {
@@ -34,14 +35,20 @@ namespace BostreamWeb.Tests.Controllers
 
             // Assert
             Assert.IsNotNull(result);
+            Assert.
         }
         public void Authentication()
         {
             // Arrange
             AdminController controller = new AdminController();
+            Admin sampleAdmin = new Admin();
+            sampleAdmin.AdminId = 1;
+            sampleAdmin.password = "1234";
+            sampleAdmin.PersonId = 1;
+            sampleAdmin.username = "test";
 
             // Act
-            ViewResult result = controller.Authentication() as ViewResult;
+            ViewResult result = controller.Authentication(sampleAdmin) as ViewResult;
 
             // Assert
             Assert.IsNotNull(result);
