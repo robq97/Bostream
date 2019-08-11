@@ -4,19 +4,9 @@
     <EntitySetMapping Name="Admins">
       <EntityTypeMapping TypeName="BostreamModel.Admin">
         <MappingFragment StoreEntitySet="Admin">
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="username" ColumnName="username" />
           <ScalarProperty Name="AdminId" ColumnName="AdminId" />
-          <ScalarProperty Name="Password" ColumnName="Password" />
-          <ScalarProperty Name="PersonId" ColumnName="PersonId" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
-    <EntitySetMapping Name="Clients">
-      <EntityTypeMapping TypeName="BostreamModel.Client">
-        <MappingFragment StoreEntitySet="Client">
-          <ScalarProperty Name="ClientId" ColumnName="ClientId" />
-          <ScalarProperty Name="Company" ColumnName="Company" />
-          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
-          <ScalarProperty Name="Note" ColumnName="Note" />
           <ScalarProperty Name="PersonId" ColumnName="PersonId" />
         </MappingFragment>
       </EntityTypeMapping>
@@ -24,6 +14,7 @@
     <EntitySetMapping Name="Customers">
       <EntityTypeMapping TypeName="BostreamModel.Customer">
         <MappingFragment StoreEntitySet="Customer">
+          <ScalarProperty Name="QuotationID" ColumnName="QuotationID" />
           <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
           <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
           <ScalarProperty Name="Phone" ColumnName="Phone" />
@@ -55,6 +46,7 @@
     <EntitySetMapping Name="Quotations">
       <EntityTypeMapping TypeName="BostreamModel.Quotation">
         <MappingFragment StoreEntitySet="Quotation">
+          <ScalarProperty Name="Price" ColumnName="Price" />
           <ScalarProperty Name="QuotationID" ColumnName="QuotationID" />
           <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
           <ScalarProperty Name="ServiceID" ColumnName="ServiceID" />
