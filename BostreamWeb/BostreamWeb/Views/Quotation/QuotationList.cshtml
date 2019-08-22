@@ -1,37 +1,45 @@
 ﻿@model IEnumerable<BostreamWeb.Models.QuotationViewModel>
-@{
-    ViewBag.Title = "Mis cotizaciones";
-}
-<h3 class="center">@ViewBag.Title.</h3>
-
-@if (Model != null)
+@if (Session["username"] != null)
 {
-<div class="container body-content">
-    <table class="centered highlight" style="margin-top:5%;">
-        <thead class="z-depth-1">
-            <tr>
-                <th>ID Cliente</th>
-                <th>Nombre</th>
-                <th>Servicio</th>
-                <th>Fecha creación</th>
-                <th>Fecha vencimiento</th>
-                <th>Precio ($)</th>
-            </tr>
-        </thead>
-        <!--aquí se insertan los datos de cada cotizacón-->
-        <tbody>
-            @foreach (var item in Model)
-            {
-                <tr>
-                    <td>@item.CustomerID</td>
-                    <td>@item.Name</td>
-                    <td>@item.QuotationService</td>
-                    <td>@item.CreationDate</td>
-                    <td>@item.ExpirationDate</td>
-                    <td>@item.Price</td>
-                </tr>
-            }
-        </tbody>
-    </table>
-</div>
+    {
+        ViewBag.Title = "Mis cotizaciones";
+    }
+
+    <h3 class="center">@ViewBag.Title.</h3>
+
+    if (Model != null)
+    {
+        <div class="container body-content">
+            <table class="centered highlight" style="margin-top:5%;">
+                <thead class="z-depth-1">
+                    <tr>
+                        <th>ID Cliente</th>
+                        <th>Nombre</th>
+                        <th>Servicio</th>
+                        <th>Fecha creación</th>
+                        <th>Fecha vencimiento</th>
+                        <th>Precio ($)</th>
+                    </tr>
+                </thead>
+                <!--aquí se insertan los datos de cada cotizacón-->
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.CustomerID</td>
+                            <td>@item.Name</td>
+                            <td>@item.QuotationService</td>
+                            <td>@item.CreationDate</td>
+                            <td>@item.ExpirationDate</td>
+                            <td>@item.Price</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+}
+@if (Session["username"] == null)
+{
+    Response.Redirect("~/Admin/Denied");
 }

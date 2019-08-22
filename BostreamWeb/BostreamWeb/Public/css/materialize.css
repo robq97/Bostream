@@ -5,15 +5,16 @@
  */
 
 
-  .body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-  }
+.body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
 
-  .main {
-    flex: 1 0 auto;
-  }
+.main {
+  flex: 1 0 auto;
+}
+
 .materialize-red {
   background-color: #e51c23 !important;
 }
@@ -7552,7 +7553,7 @@ input[type=range]::-ms-thumb {
   height: calc(100% + 60px);
   height: -moz-calc(100%);
   padding-bottom: 60px;
-  background-color: #fff;
+  background-color: black;
   z-index: 999;
   overflow-y: auto;
   will-change: transform;
@@ -7585,7 +7586,7 @@ input[type=range]::-ms-thumb {
 }
 
 .sidenav li > a {
-  color: rgba(0, 0, 0, 0.87);
+  color: white;
   display: block;
   font-size: 14px;
   font-weight: 500;

@@ -10,12 +10,17 @@ namespace Bostream.Controllers
     public class TaskController : Controller
     {
         
-      
+        //Devuelve el view de NewTask      
         public ActionResult NewTask()
         {
             return View();
         }
 
+        /// <summary>
+        /// Agrega una nueva tarea a un cliente determinado.
+        /// </summary>
+        /// <param name="_newTask"></param>
+        /// <returns>actualizacion a la db con nueva tarea</returns>
         public ActionResult AddNewTask([Bind(Include = "TaskId, Title, Deadline, Description, Priority, CustomerID")] Task _newTask)
         {
             if (ModelState.IsValid)

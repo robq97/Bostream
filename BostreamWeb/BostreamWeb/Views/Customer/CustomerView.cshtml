@@ -1,43 +1,47 @@
 ﻿
 @model IEnumerable<BostreamWeb.Models.CustomerViewModel>
-@{
-    ViewBag.Title = "Mis Contactos";
-}
-<h3 class="center">@ViewBag.Title.</h3>
+@if (Session["username"] != null)
+{
 
-@if (Model != null)
-{<div class="container body-content">
-    <table class="centered highlight" style="margin-top:5%;">
-        <thead class="z-depth-1">
-            <tr class="">
-                <th>ID</th>
-                <th>Nombre</th>
-                <th>Email</th>
-                <th>Empresa</th>
-                <th>Tel/Cel</th>
-                <th>Notas</th>
-                <th>Tareas</th>
-                <th>Cotizaciones</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var item in Model)
-            {
-                <tr>
-                    <td>@item.CustomerID</td>
-                    <td>@item.Name</td>
-                    <td>@item.Email</td>
-                    <td>@item.CompanyName</td>
-                    <td>@item.Phone</td>
-                    <td>@item.Note</td>
-                    <td><b>Titulo:</b> @item.TaskTitle <br><b>Descripción:</b> @item.TaskDesc</td>
-                    <td>
-                        <b>Servicio:</b> @item.QuotationService <br><b>Creación:</b> @item.QuotationCreationDate
-                        <br><b>Límite:</b> @item.QuotationEndDate <br><b>Precio ($):</b> @item.QuotationPrice
-                    </td>
+
+    {
+        ViewBag.Title = "Mis Contactos";
+    }
+    <h3 class="center">@ViewBag.Title.</h3>
+
+    if (Model != null)
+    {<div class="container body-content">
+        <table class="centered highlight" style="margin-top:5%;">
+            <thead class="z-depth-1">
+                <tr class="">
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Email</th>
+                    <th>Empresa</th>
+                    <th>Tel/Cel</th>
+                    <th>Notas</th>
+                    <th>Tareas</th>
                 </tr>
-            }
-        </tbody>
-    </table>
-</div>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.CustomerID</td>
+                        <td>@item.Name</td>
+                        <td>@item.Email</td>
+                        <td>@item.CompanyName</td>
+                        <td>@item.Phone</td>
+                        <td>@item.Note</td>
+                        <td><b>Titulo:</b> @item.TaskTitle <br><b>Descripción:</b> @item.TaskDesc</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    }
+}
+@if (Session["username"] == null)
+{
+    Response.Redirect("~/Admin/Denied");
 }

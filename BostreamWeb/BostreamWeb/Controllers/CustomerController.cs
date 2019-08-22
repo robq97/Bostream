@@ -9,33 +9,10 @@ namespace BostreamWeb.Controllers
 
     public class CustomerController : Controller
     {
-        //public ActionResult CustomerView()
-        //{
-        //    // entity del web.config para instanciar la base de datos
-        //    BostreamEntities1 db = new BostreamEntities1();
-
-        //    //lista de los customers que se encuentren en la base de datos
-        //    List<Customer> customerList = db.Customers.Include(x => x.Task).ToList();
-
-        //    //instancia de viewmodel se utiliza para manejar entity de customer
-        //    //de esta manera, en caso de que se hagan cambios en customers, no se afecta el view
-        //    CustomerViewModel customerViewModel = new CustomerViewModel();
-
-        //    List <CustomerViewModel> customerViewModelList = customerList.Select(x => new CustomerViewModel
-        //    {
-        //        CustomerID = x.CustomerID,
-        //        CompanyName = x.CompanyName,
-        //        Phone = x.Phone,
-        //        Note = x.Note,
-        //        TaskID = x.TaskID,
-        //        //TaskTitle =  x.Task.Title,
-        //        PersonID = x.PersonID,
-        //        Quotations = x.Quotations
-        //    }).ToList();
-
-        //    return View(customerViewModelList);
-        //}
-
+        /// <summary>
+        /// Metodo para la obtencion de datos de clintes de diferentes tablas.
+        /// </summary>
+        /// <returns>lista con infromacion de cada cliente</returns>
         public ActionResult CustomerView()
         {
             BostreamEntities1 db = new BostreamEntities1();
@@ -74,11 +51,20 @@ namespace BostreamWeb.Controllers
             return View(list);
         }
 
+        /// <summary>
+        /// redirecciona al view de agregar nuevo cliente
+        /// </summary>
+        /// <returns>view de NewCustomer</returns>
         public ActionResult NewCustomer()
         {
             return View();
         }
 
+        /// <summary>
+        /// ingresa info de cliente nuevo
+        /// </summary>
+        /// <param name="_newCustomer"></param>
+        /// <returns></returns>
         public ActionResult AddNewCustomer([Bind (Include = "CustomerID, CompanyName, Phone," +
             "Note, TaskID, PersonID, QuotationID")] Customer _newCustomer)
         {

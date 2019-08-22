@@ -4,9 +4,7 @@
 }
 <h5>@ViewBag.Title</h5>
 
-<div class="container lighten-5 col m6 z-depth-3 center" style="margin-top: 10%; margin-bottom: 10%">
-    <div id="login-div">
-        @using (Html.BeginForm("Authentication", "Admin", FormMethod.Post))
+        @using (Html.BeginForm("Authentication", "Admin", FormMethod.Post, new { @class = "container lighten-5 col m6 z-depth-3 center", @style = "margin-top: 10%; margin-bottom: 10%; border-left: 20%; border-right: 20%;" } ))
         {
         <div class="teal">
             <form class="col s4">
@@ -32,5 +30,4 @@
             </form>
         </div>
         }   
-    </div>
-</div>
+

@@ -1,13 +1,15 @@
 ﻿@{
     ViewBag.Title = "Nuevo Contacto";
 }
-<h3 class="center">@ViewBag.Title.</h3>
+@if (Session["username"] != null)
+{
+    <h3 class="center">@ViewBag.Title.</h3>
 
-<br>
+    <br>
 
-<!--HTML Form para datos de "Nuevo Contacto"-->
-<!---->
-<div class="container body-content">
+    <!--HTML Form para datos de "Nuevo Contacto"-->
+    <!---->
+    <div class="container body-content">
         <div class="row">
             <form class="col s12 hoverable grey darken-1 z-depth-3">
 
@@ -53,7 +55,12 @@
                             <i class="material-icons right">send</i>
                         </button>
                     }
-                    </div>
+                </div>
             </form>
         </div>
-</div>
+    </div>
+}
+@if (Session["username"] == null)
+{
+    Response.Redirect("~/Admin/Denied");
+}

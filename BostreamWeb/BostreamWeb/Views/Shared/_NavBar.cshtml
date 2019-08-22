@@ -2,6 +2,7 @@
 {
     <nav>
         <div class="nav-wrapper orange darken-4">
+            <a href="#" data-target="menu-responsive" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <a> @Html.ActionLink("Bostream", "Index", "Home", new { area = "" }, new { @class = "brand-logo center" })</a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li class="orange darken-3 active">@Html.ActionLink("¿Quiénes Somos?", "Index", "Home")</li>
@@ -11,13 +12,20 @@
             </ul>
         </div>
     </nav>
+    <ul class="sidenav white-text orange" id="menu-responsive">
+        <li class="orange darken-3 active">@Html.ActionLink("¿Quiénes Somos?", "Index", "Home")</li>
+        <li class="orange darken-2 active">@Html.ActionLink("Servicios", "ServiceList", "Service")</li>
+        <li class="orange darken-1 active">@Html.ActionLink("Trabajos", "WorkGallery", "Work")</li>
+        <li class="orange active lighten-1">@Html.ActionLink("Contáctenos", "InformationForm", "Information")</li>
+    </ul>
 }
 
 
 @if (Session["username"] != null)
 {
     <nav>
-        <div class="nav-wrapper teal darken-1">
+        <a href="#" data-target="menu-responsive" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <div class="nav-wrapper">
             <ul id="dropdown-contactos" class="dropdown-content">
                 <li>@Html.ActionLink("Nuevo Contacto", "NewCustomer", "Customer")</li>
                 <li>@Html.ActionLink("Mis contactos", "CustomerView", "Customer")</li>
@@ -29,12 +37,26 @@
             </ul>
             <div class="nav-wrapper teal">
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a class="teal lighten-1 dropdown-trigger" href="#!" data-target="dropdown-contactos">Contactos<i class="material-icons right">arrow_drop_down</i></a></li>
-                    <li><a class="teal lighten-2 dropdown-trigger" href="#!" data-target="dropdown-cotizaciones">Cotizaciones<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a class="teal lighten-1 dropdown-trigger" data-target="dropdown-contactos">Contactos<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a class="teal lighten-2 dropdown-trigger" data-target="dropdown-cotizaciones">Cotizaciones<i class="material-icons right">arrow_drop_down</i></a></li>
                     <li class="teal lighten-3">@Html.ActionLink("Cerrar Sesión", "LogOut", "Admin")</li>
                 </ul>
             </div>
         </div>
     </nav>
+    <ul id="dropdown-contactos-mov" class="dropdown-content">
+        <li class="teal lighten-1">@Html.ActionLink("Nuevo Contacto", "NewCustomer", "Customer")</li>
+        <li class="teal lighten-1">@Html.ActionLink("Mis contactos", "CustomerView", "Customer")</li>
+        <li class="teal lighten-1">@Html.ActionLink("Nueva Tarea", "NewTask", "Task")</li>
+    </ul>
+    <ul id="dropdown-cotizaciones-mov" class="dropdown-content">
+        <li class="teal lighten-2">@Html.ActionLink("Crear Cotización", "NewQuotation", "Quotation")</li>
+        <li class="teal lighten-2">@Html.ActionLink("Cotizaciones", "QuotationList", "Quotation")</li>
+    </ul>
+    <ul class="sidenav white-text teal lighten-4" id="menu-responsive">
+        <li><a class="teal lighten-1 dropdown-trigger" href="#!" data-target="dropdown-contactos-mov">Contactos<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="teal lighten-2 dropdown-trigger" href="#!" data-target="dropdown-cotizaciones-mov">Cotizaciones<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li class="teal lighten-3">@Html.ActionLink("Cerrar Sesión", "LogOut", "Admin")</li>
+    </ul>
 }
 

@@ -9,7 +9,10 @@ namespace BostreamWeb.Controllers
 {
     public class QuotationController : Controller
     {
-        // GET: Quotation
+        /// <summary>
+        /// Crea nueva cotizacion
+        /// </summary>
+        /// <returns>Cambios a la db de cotizaciones</returns>
         public ActionResult NewQuotation()
         {
             return View();
@@ -28,6 +31,10 @@ namespace BostreamWeb.Controllers
             return View(_NewQuotation);
         }
 
+        /// <summary>
+        /// Obtiene informacion de diferentes tablas en relacion a la cotizaciones
+        /// </summary>
+        /// <returns>Lista de cotizaciones</returns>
         public ActionResult QuotationList()
         {
             BostreamEntities1 db = new BostreamEntities1();
