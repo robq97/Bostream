@@ -7,51 +7,47 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using BostreamWeb;
 using Bostream.Controllers;
 using BostreamWeb.Models;
+using System.Web;
 
 namespace BostreamWeb.Tests.Controllers
 {
     [TestClass]
     public class AdminControllerTest
     {
+
         [TestMethod]
-        public void Login()
+        public void AdminId()
         {
             // Arrange
             AdminController controller = new AdminController();
-
+            Admin sampleAdmin = new Admin
+            {
+                AdminId = 1,
+                password = "1234",
+                PersonId = 1,
+                username = "test"
+            };
             // Act
-            ViewResult result = controller.LogIn() as ViewResult;
+            int result = 1 ;
 
             // Assert
-            Assert.IsNotNull(result);
+            Assert.IsTrue(result == sampleAdmin.AdminId);
         }
-        public void LogOut()
+
+        [TestMethod]
+        public void AdminPassword()
         {
             // Arrange
             AdminController controller = new AdminController();
-
+            Admin sampleAdmin = new Admin
+            {
+                password = "1234"
+            };
             // Act
-            ViewResult result = controller.LogOut() as ViewResult;
+            string result = "1234";
 
             // Assert
-            Assert.IsNotNull(result);
-            Assert.
-        }
-        public void Authentication()
-        {
-            // Arrange
-            AdminController controller = new AdminController();
-            Admin sampleAdmin = new Admin();
-            sampleAdmin.AdminId = 1;
-            sampleAdmin.password = "1234";
-            sampleAdmin.PersonId = 1;
-            sampleAdmin.username = "test";
-
-            // Act
-            ViewResult result = controller.Authentication(sampleAdmin) as ViewResult;
-
-            // Assert
-            Assert.IsNotNull(result);
+            Assert.IsTrue(result.Equals(sampleAdmin.password));
         }
     }
 }

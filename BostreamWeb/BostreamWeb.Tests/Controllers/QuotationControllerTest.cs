@@ -6,6 +6,7 @@ using System.Web.Mvc;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using BostreamWeb;
 using BostreamWeb.Controllers;
+using BostreamWeb.Models;
 
 namespace BostreamWeb.Tests.Controllers
 {
@@ -24,6 +25,7 @@ namespace BostreamWeb.Tests.Controllers
             // Assert
             Assert.IsNotNull(result);
         }
+
         public void QuotationList()
         {
             // Arrange
@@ -31,6 +33,19 @@ namespace BostreamWeb.Tests.Controllers
 
             // Act
             ViewResult result = controller.QuotationList() as ViewResult;
+
+            // Assert
+            Assert.IsNull(result);
+        }
+
+        [TestMethod]
+        public void DBInstance()
+        {
+            // Arrange
+            QuotationController controller = new QuotationController();
+
+            // Act
+            BostreamEntities1 result = new BostreamEntities1(); ;
 
             // Assert
             Assert.IsNotNull(result);
