@@ -1,6 +1,8 @@
 ﻿using BostreamWeb.Models;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity.Validation;
+using System.Diagnostics;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -31,33 +33,58 @@ namespace BostreamWeb.Controllers
             return View(_NewQuotation);
         }
 
+        /// <summary>
+        /// Agrega nueva tarea a la db
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns>Vista de tareas</returns>
         [HttpPost]
-        public ActionResult AddQuotation2(QuotationViewModel model)
+        public ActionResult AddNewQuotation(QuotationViewModel model)
         {
             BostreamEntities1 db = new BostreamEntities1();
+            List<Quotation> tasks = db.Quotations.ToList();
 
             Quotation qt = new Quotation();
 
-            qt.CustomerID = model.CustomerID;
-            qt.CreationDate = model.CreationDate;
-            qt.ExpirationDate = model.ExpirationDate;
-            qt.Price = model.Price;
-            qt.ServiceID = model.ServiceID;
-           
+            try
+            {
 
-            db.Quotations.Add(qt);
+                qt.CreationDate = DateTime.Now;
+                qt.CustomerID = model.CustomerID;
+                qt.ExpirationDate = model.ExpirationDate;
+                qt.Price = model.Price;
+                qt.ServiceID = model.ServiceID;
+                
 
-            db.SaveChanges();
+                db.Quotations.Add(qt);
+
+                db.SaveChanges();
+
+            }
+
+            catch (DbEntityValidationException dbEx)
+            {
+                foreach (var validationErrors in dbEx.EntityValidationErrors)
+                {
+                    foreach (var validationError in validationErrors.ValidationErrors)
+                    {
+                        Trace.TraceInformation("Property: {0} Error: {1}",
+                                                validationError.PropertyName,
+                                                validationError.ErrorMessage);
+                    }
+                }
+            }
 
 
-            return View(model);
+            return View("NewQuotation", model);
         }
+    
 
-        /// <summary>
-        /// Obtiene informacion de diferentes tablas en relacion a la cotizaciones
-        /// </summary>
-        /// <returns>Lista de cotizaciones</returns>
-        public ActionResult QuotationList()
+    /// <summary>
+    /// Obtiene informacion de diferentes tablas en relacion a la cotizaciones
+    /// </summary>
+    /// <returns>Lista de cotizaciones</returns>
+    public ActionResult QuotationList()
         {
             BostreamEntities1 db = new BostreamEntities1();
             List<Quotation> quotationList = db.Quotations.ToList();
