@@ -9,7 +9,7 @@ namespace Bostream.Controllers
 {
     public class TaskController : Controller
     {
-        
+
         //Devuelve el view de NewTask      
         public ActionResult NewTask()
         {
@@ -26,11 +26,32 @@ namespace Bostream.Controllers
             if (ModelState.IsValid)
             {
                 BostreamEntities1 db = new BostreamEntities1();
-                db.Task.Add(_newTask);
+                db.Tasks.Add(_newTask);
                 db.SaveChanges();
                 return RedirectToAction("NewTask");
             }
             return View(_newTask);
+        }
+
+        [HttpPost]
+        public ActionResult AddNewTask2(TaskViewModel model)
+        {
+            BostreamEntities1 db = new BostreamEntities1();
+            List<Task> tasks = db.Tasks.ToList();
+
+            Task tsk = new Task();
+
+            tsk.Title = model.TaskTitle;
+            tsk.Deadline = model.Deadline;
+            tsk.Priority = model.Priority;
+            tsk.CustomerID = model.CustomerID;
+
+            db.Tasks.Add(tsk);
+
+            db.SaveChanges();
+
+
+            return View(model);
         }
     }
 }

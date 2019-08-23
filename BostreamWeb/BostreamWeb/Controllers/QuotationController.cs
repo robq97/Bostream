@@ -31,6 +31,28 @@ namespace BostreamWeb.Controllers
             return View(_NewQuotation);
         }
 
+        [HttpPost]
+        public ActionResult AddQuotation2(QuotationViewModel model)
+        {
+            BostreamEntities1 db = new BostreamEntities1();
+
+            Quotation qt = new Quotation();
+
+            qt.CustomerID = model.CustomerID;
+            qt.CreationDate = model.CreationDate;
+            qt.ExpirationDate = model.ExpirationDate;
+            qt.Price = model.Price;
+            qt.ServiceID = model.ServiceID;
+           
+
+            db.Quotations.Add(qt);
+
+            db.SaveChanges();
+
+
+            return View(model);
+        }
+
         /// <summary>
         /// Obtiene informacion de diferentes tablas en relacion a la cotizaciones
         /// </summary>

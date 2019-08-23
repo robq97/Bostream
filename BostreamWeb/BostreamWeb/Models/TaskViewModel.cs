@@ -11,8 +11,12 @@ namespace BostreamWeb.Models
         public string Task { get; set; }
         public DateTime Deadline { get; set; }
         public string Description { get; set; }
-        public int Priority { get; set; }
+        public byte Priority { get; set; }
         public int CustomerID { get; set; }
+
+        // atributos adicionales
+
+        public string TaskTitle { get; set; }
 
     }
 }

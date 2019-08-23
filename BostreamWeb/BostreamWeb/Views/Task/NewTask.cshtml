@@ -2,6 +2,7 @@
     ViewBag.Title = "Tareas";
 }
 <h3 class="center">@ViewBag.Title.</h3>
+@using (Html.BeginForm("AddNewTask2", "Task", FormMethod.Post, new { @class = "container lighten-5 col m6 z-depth-3 center", @style = "margin-top: 10%; margin-bottom: 10%; border-left: 20%; border-right: 20%;" }))
 
 <!--HTML Form para datos para crear una nueva tarea-->
 <!---->
@@ -30,10 +31,10 @@
                     <input id="Priority" type="number" class="center teal-text text-accent-1 validate .left-alert" required="">
                     <label class="white-text" for="Priority">Prioridad de tarea:</label>
                 </div>
-                <div class="row"> 
+                <div class="row">
                     <div class="input-field input col s3">
-                    <input id="Deadline" type="text" class="datepicker validate white-text">
-                    <label class="white-text" for="Deadline">Fecha límite de tarea:</label>
+                        <input id="Deadline" type="text" class="datepicker validate white-text">
+                        <label class="white-text" for="Deadline">Fecha límite de tarea:</label>
                     </div>
                 </div>
                 <div class="center" style="margin-bottom: 5%">
