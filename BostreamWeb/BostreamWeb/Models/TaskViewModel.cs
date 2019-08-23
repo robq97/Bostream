@@ -9,7 +9,7 @@ namespace BostreamWeb.Models
     {
         public int TaskId { get; set; }
         public string Task { get; set; }
-        public DateTime Deadline { get; set; }
+        public string Deadline { get; set; }
         public string Description { get; set; }
         public byte Priority { get; set; }
         public int CustomerID { get; set; }

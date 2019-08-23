@@ -20,7 +20,7 @@ namespace BostreamWeb.Controllers
             CustomerViewModel customerViewModel = new CustomerViewModel();
 
             var list = (from c in db.Customers
-                        join t in db.Task
+                        join t in db.Tasks
                             on c.CustomerID equals t.CustomerID into ljt
                         from t in ljt.DefaultIfEmpty()
                         join p in db.People

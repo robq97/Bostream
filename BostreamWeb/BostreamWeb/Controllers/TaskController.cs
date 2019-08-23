@@ -1,6 +1,8 @@
 ﻿using BostreamWeb.Models;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity.Validation;
+using System.Diagnostics;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -21,7 +23,7 @@ namespace Bostream.Controllers
         /// </summary>
         /// <param name="_newTask"></param>
         /// <returns>actualizacion a la db con nueva tarea</returns>
-        public ActionResult AddNewTask([Bind(Include = "TaskId, Title, Deadline, Description, Priority, CustomerID")] Task _newTask)
+        public ActionResult AddNewTask([Bind(Include = "Title, Deadline, Description, Priority, CustomerID")] Task _newTask)
         {
             if (ModelState.IsValid)
             {
@@ -41,17 +43,35 @@ namespace Bostream.Controllers
 
             Task tsk = new Task();
 
-            tsk.Title = model.TaskTitle;
-            tsk.Deadline = model.Deadline;
-            tsk.Priority = model.Priority;
-            tsk.CustomerID = model.CustomerID;
+            try
+            {
+                tsk.Title = model.TaskTitle;
+                DateTime date = DateTime.Parse(model.Deadline);
+                tsk.Deadline = date;
+                tsk.Priority = model.Priority;
+                tsk.CustomerID = model.CustomerID;
+                tsk.Description = model.Description;
 
-            db.Tasks.Add(tsk);
+                db.Tasks.Add(tsk);
 
-            db.SaveChanges();
+                db.SaveChanges();
+            }
+
+            catch (DbEntityValidationException dbEx)
+            {
+                foreach (var validationErrors in dbEx.EntityValidationErrors)
+                {
+                    foreach (var validationError in validationErrors.ValidationErrors)
+                    {
+                        Trace.TraceInformation("Property: {0} Error: {1}",
+                                                validationError.PropertyName,
+                                                validationError.ErrorMessage);
+                    }
+                }
+            }
 
 
-            return View(model);
+            return View("NewTask", model);
         }
     }
 }

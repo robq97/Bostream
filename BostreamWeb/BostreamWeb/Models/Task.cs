@@ -20,7 +20,7 @@ namespace BostreamWeb.Models
             this.Customers = new HashSet<Customer>();
         }
     
-        public int TaskId { get; set; }
+        public int? TaskId { get; set; }
         public string Title { get; set; }
         public System.DateTime Deadline { get; set; }
         public string Description { get; set; }
