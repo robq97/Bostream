@@ -19,24 +19,12 @@ namespace Bostream.Controllers
         }
 
         /// <summary>
-        /// Agrega una nueva tarea a un cliente determinado.
+        /// Agrega nueva tarea a la db
         /// </summary>
-        /// <param name="_newTask"></param>
-        /// <returns>actualizacion a la db con nueva tarea</returns>
-        public ActionResult AddNewTask([Bind(Include = "Title, Deadline, Description, Priority, CustomerID")] Task _newTask)
-        {
-            if (ModelState.IsValid)
-            {
-                BostreamEntities1 db = new BostreamEntities1();
-                db.Tasks.Add(_newTask);
-                db.SaveChanges();
-                return RedirectToAction("NewTask");
-            }
-            return View(_newTask);
-        }
-
+        /// <param name="model"></param>
+        /// <returns>Vista de tareas</returns>
         [HttpPost]
-        public ActionResult AddNewTask2(TaskViewModel model)
+        public ActionResult AddNewTask(TaskViewModel model)
         {
             BostreamEntities1 db = new BostreamEntities1();
             List<Task> tasks = db.Tasks.ToList();
