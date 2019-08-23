@@ -41,24 +41,6 @@ namespace BostreamWeb.Controllers
             return View(list);
         }
 
-        public ActionResult Task()  
-
-        {
-            BostreamEntities1 db = new BostreamEntities1();
-            List<Customer> customerList = db.Customers.ToList();
-            CustomerViewModel customerViewModel = new CustomerViewModel();
-
-            var list = (from t in db.Tasks
-                        join c in db.Customers
-                            on t.CustomerID equals c.CustomerID into ljt
-                        select new CustomerViewModel
-                        {
-                            TaskTitle = t.Title,
-                            TaskDesc = t.Description
-                        }).ToList();
-            return View(list);
-        }
-
         /// <summary>
         /// redirecciona al view de agregar nuevo cliente
         /// </summary>
@@ -68,22 +50,38 @@ namespace BostreamWeb.Controllers
             return View();
         }
 
+
         /// <summary>
-        /// ingresa info de cliente nuevo
+        /// Crea una persona, seguido de un cliente
         /// </summary>
-        /// <param name="_newCustomer"></param>
-        /// <returns></returns>
-        public ActionResult AddNewCustomer([Bind (Include = "CustomerID, CompanyName, Phone," +
-            "Note, TaskID, PersonID, QuotationID")] Customer _newCustomer)
+        /// <param name="model"></param>
+        /// <returns>Nueva vista de NewCustomer</returns>
+        [HttpPost]
+        public ActionResult AddCustomer(CustomerViewModel model)
         {
-            if (ModelState.IsValid)
+            var person = new Person
             {
-                BostreamEntities1 db = new BostreamEntities1();
-                db.Customers.Add(_newCustomer);
-                db.SaveChanges();
-                return RedirectToAction("CustomerView");
+                FirstName = model.FirstName,
+                LastName = model.LastName,
+                Email = model.Email
+            };
+
+            var customer = new Customer
+            {
+                CompanyName = model.CompanyName,
+                Phone = model.Phone,
+                Note = model.Note,
+                PersonID = person.PersonId
+            };
+
+            using (var context = new BostreamEntities1())
+            {
+                context.People.Add(person);
+                context.Customers.Add(customer);
+                context.SaveChanges();
             }
-            return View(_newCustomer);
+            return View("NewCustomer", model);
         }
+
     }
 }

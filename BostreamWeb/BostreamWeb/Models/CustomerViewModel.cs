@@ -24,5 +24,8 @@ namespace BostreamWeb.Models
         public DateTime? QuotationEndDate { get; set; }
         public string QuotationService { get; set; }
         public int? QuotationPrice { get; set; }
+
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
     }
 }
