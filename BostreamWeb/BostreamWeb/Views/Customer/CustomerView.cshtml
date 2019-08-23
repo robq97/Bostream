@@ -11,34 +11,32 @@
 
     if (Model != null)
     {<div class="container body-content">
-        <table class="centered highlight" style="margin-top:5%;">
-            <thead class="z-depth-1">
-                <tr class="">
-                    <th>ID</th>
-                    <th>Nombre</th>
-                    <th>Email</th>
-                    <th>Empresa</th>
-                    <th>Tel/Cel</th>
-                    <th>Notas</th>
-                    <th>Tareas</th>
-                </tr>
-            </thead>
-            <tbody>
-                @foreach (var item in Model)
-                {
-                    <tr>
-                        <td>@item.CustomerID</td>
-                        <td>@item.Name</td>
-                        <td>@item.Email</td>
-                        <td>@item.CompanyName</td>
-                        <td>@item.Phone</td>
-                        <td>@item.Note</td>
-                        <td><b>Titulo:</b> @item.TaskTitle <br><b>Descripción:</b> @item.TaskDesc</td>
+            <table class="centered highlight" style="margin-top:5%;">
+                <thead class="z-depth-1">
+                    <tr class="">
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th>Email</th>
+                        <th>Empresa</th>
+                        <th>Tel/Cel</th>
+                        <th>Notas</th>
                     </tr>
-                }
-            </tbody>
-        </table>
-    </div>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.CustomerID</td>
+                            <td>@item.Name</td>
+                            <td>@item.Email</td>
+                            <td>@item.CompanyName</td>
+                            <td>@item.Phone</td>
+                            <td>@item.Note</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
     }
 }
 @if (Session["username"] == null)

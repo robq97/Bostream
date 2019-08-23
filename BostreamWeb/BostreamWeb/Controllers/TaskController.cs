@@ -57,9 +57,31 @@ namespace Bostream.Controllers
                     }
                 }
             }
-
-
             return View("NewTask", model);
+        }
+
+        public ActionResult TaskList()
+
+        {
+            BostreamEntities1 db = new BostreamEntities1();
+            List<Task> taskList = db.Tasks.ToList();
+            TaskViewModel taskViewModel = new TaskViewModel();
+
+            var list = (from t in db.Tasks
+                        join c in db.Customers
+                            on t.CustomerID equals c.CustomerID into ljt
+                        from c in ljt.DefaultIfEmpty()
+                        join p in db.People
+                            on c.PersonID equals p.PersonId
+                        select new TaskViewModel
+                        {
+                            Name = p.FirstName + " " + p.LastName,
+                            TaskTitle = t.Title,
+                            Deadline = t.Description,
+                            Description = t.Description,
+                            Priority = t.Priority
+                        }).ToList();
+            return View(list);
         }
     }
 }

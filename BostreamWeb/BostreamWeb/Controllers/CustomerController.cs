@@ -20,17 +20,11 @@ namespace BostreamWeb.Controllers
             CustomerViewModel customerViewModel = new CustomerViewModel();
 
             var list = (from c in db.Customers
-                        join t in db.Tasks
-                            on c.CustomerID equals t.CustomerID into ljt
-                        from t in ljt.DefaultIfEmpty()
                         join p in db.People
                             on c.PersonID equals p.PersonId
-                        join q in db.Quotations
-                            on c.CustomerID equals q.CustomerID into ljq
-                        from q in ljq.DefaultIfEmpty()
-                        join s in db.Services
-                            on q.ServiceID equals s.ServiceID into ljs
-                        from s in ljs.DefaultIfEmpty()
+                        //join t in db.Tasks
+                        //    on c.CustomerID equals t.CustomerID into ljt
+                        //from t in ljt.DefaultIfEmpty()
                         select new CustomerViewModel
                         {
                             CustomerID = c.CustomerID,
@@ -39,15 +33,29 @@ namespace BostreamWeb.Controllers
                             CompanyName = c.CompanyName,
                             Phone = c.Phone,
                             Note = c.Note,
-                            TaskID = t.TaskId,
-                            TaskTitle = t.Title,
-                            TaskDesc = t.Description,
+                            ////TaskID = t.TaskId,
+                            ////TaskTitle = t.Title,
+                            ////TaskDesc = t.Description,
                             PersonID = c.PersonID,
-                            QuotationService = s.Name,
-                            QuotationCreationDate = q.CreationDate,
-                            QuotationEndDate = q.ExpirationDate,
-                            QuotationPrice = q.Price
                          }).ToList();
+            return View(list);
+        }
+
+        public ActionResult Task()  
+
+        {
+            BostreamEntities1 db = new BostreamEntities1();
+            List<Customer> customerList = db.Customers.ToList();
+            CustomerViewModel customerViewModel = new CustomerViewModel();
+
+            var list = (from t in db.Tasks
+                        join c in db.Customers
+                            on t.CustomerID equals c.CustomerID into ljt
+                        select new CustomerViewModel
+                        {
+                            TaskTitle = t.Title,
+                            TaskDesc = t.Description
+                        }).ToList();
             return View(list);
         }
 

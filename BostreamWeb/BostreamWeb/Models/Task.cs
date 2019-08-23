@@ -24,7 +24,7 @@ namespace BostreamWeb.Models
         public string Title { get; set; }
         public System.DateTime Deadline { get; set; }
         public string Description { get; set; }
-        public byte Priority { get; set; }
+        public Nullable<byte> Priority { get; set; }
         public int CustomerID { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
