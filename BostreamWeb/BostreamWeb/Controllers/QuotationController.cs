@@ -90,14 +90,13 @@ namespace BostreamWeb.Controllers
             List<Quotation> quotationList = db.Quotations.ToList();
             QuotationViewModel quotationViewModel = new QuotationViewModel();
 
-            var list = (from c in db.Customers
-                        join q in db.Quotations
-                             on c.CustomerID equals q.CustomerID
+            var list = (from q in db.Quotations
+                        join c in db.Customers
+                            on q.CustomerID equals c.CustomerID
                         join p in db.People
-                             on c.PersonID equals p.PersonId
+                            on c.PersonID equals p.PersonId
                         join s in db.Services
-                             on q.ServiceID equals s.ServiceID into ljs
-                        from s in ljs.DefaultIfEmpty()
+                            on q.ServiceID equals s.ServiceID
                         select new QuotationViewModel
                         {
                             CustomerID = c.CustomerID,

@@ -23,8 +23,8 @@ namespace BostreamWeb.Models
         public int QuotationID { get; set; }
         public int CustomerID { get; set; }
         public int ServiceID { get; set; }
-        public System.DateTime CreationDate { get; set; }
-        public System.DateTime ExpirationDate { get; set; }
+        public DateTime CreationDate { get; set; }
+        public DateTime ExpirationDate { get; set; }
         public Nullable<int> Price { get; set; }
     
         public virtual Customer Customer { get; set; }

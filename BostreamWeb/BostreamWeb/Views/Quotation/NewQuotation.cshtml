@@ -11,10 +11,8 @@
     <div class="container body-content">
 
         <div class="row">
-            @using (Html.BeginForm("AddNewQuotation", "Quotation", FormMethod.Post, new { @class = "col s12 hoverable grey darken-1 z-depth-3", @style = "margin-top: 10%;" }))
+            @using (Html.BeginForm("AddNewQuotation", "Quotation", FormMethod.Post, new { @class = "col s12 hoverable grey darken-1 z-depth-3"}))
             {
-        <form class="col s12 hoverable grey darken-1 z-depth-3">
-
             <div class="col s12 card-panel center">
                 <h6 style="margin-bottom: 2%;">Crear nueva cotización:</h6>
             </div>
@@ -23,28 +21,21 @@
 
                 <div class="input-field input col s2 offset-s1">
 
-                    <input id="id" type="number" class="center teal-text text-accent-1 validate .left-alert" required="">
+                    <input id="id" type="number" name="CustomerID" class="center white-text text-accent-1 validate .left-alert" required="">
                     <label class="white-text" for="id">ID del cliente</label>
                 </div>
-
-                <div class="input-field input col s2">
-                    <input disabled value="'Reemplazar por ID aquí'" id="disabled" type="number" class="validate white-text">
-                    <label class="white-text" for="disabled"></label>
-                </div>
-
-
                 <div class="input-field col s3">
                     <div class="container">
                         <p>
                             <label>
-                                <input id="SocialNetwork" type="checkbox" class="filled-in" />
-                                <span class="white-text ">Manejo de redes sociales</span>
+                                <input name="ServiceID" type="radio" value="1" required=""/>
+                                <span class="white-text">Manejo de redes sociales</span>
                             </label>
                         </p>
                         <p>
                             <label>
-                                <input id="ContentCreation" type="checkbox" class="filled-in" />
-                                <span class="white-text ">Creación de contenido</span>
+                                <input name="ServiceID" type="radio" value="2" />
+                                <span class="white-text">Creación de contenido</span>
                             </label>
                         </p>
                     </div>
@@ -52,14 +43,14 @@
                 <div class="input-field col s2">
                     <p>
                         <label>
-                            <input id="GraphicDesign" type="checkbox" class="filled-in" />
-                            <span class="white-text ">Diseño gráfico</span>
+                            <input name="ServiceID" type="radio" value="3" />
+                            <span class="white-text">Diseño gráfico</span>
                         </label>
                     </p>
                     <p>
                         <label>
-                            <input id="Other" type="checkbox" class="filled-in" />
-                            <span class="white-text ">Otro</span>
+                            <input name="ServiceID" type="radio" value="4" />
+                            <span class="white-text">Otro</span>
                         </label>
                     </p>
                 </div>
@@ -67,17 +58,13 @@
             </div>
 
             <div class="row">
-                @*<div class="input-field input col s3 offset-s2">
-                <input id="CreationDate" type="text" class="datepicker validate white-text">
-                <label class="white-text" for="CreationDate">Creación de cotización:</label>
-            </div>*@
                 <div class="input-field input col s3 offset-s1">
-                    <input id="ExpirationDate" type="text" class="datepicker validate white-text">
+                    <input id="ExpirationDate" name="ExpirationDate" type="text" class="datepicker validate white-text" required="">
                     <label class="white-text" for="ExpirationDate">Expiración de cotización:</label>
                 </div>
                 <div class="input-field input col s5">
-                    <input id="Total" type="number" class="validate white-text">
-                    <label class="white-text" for="Total">Precio total:</label>
+                    <input id="Total" type="number" name="Price" class="validate white-text">
+                    <label class="white-text" for="Total">Precio total ($):</label>
                 </div>
             </div>
             <div class="center" style="margin-bottom: 5%">
@@ -86,7 +73,6 @@
                     <i class="material-icons right">send</i>
                 </button>
             </div>
-        </form>
             }
         </div>
     </div>
